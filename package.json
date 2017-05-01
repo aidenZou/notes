@@ -1,0 +1,22 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "Web开发常用技术整理",
+  "main": "book.js",
+  "dependencies": {
+    "gitbook-cli": "^2.1.2",
+    "gitbook-plugin-disqus": "^0.1.0",
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-prism": "^1.0.0",
+    "gitbook-plugin-quizzes": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "gitbook serve",
+    "build": "gitbook build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
