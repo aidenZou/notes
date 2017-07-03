@@ -72,6 +72,15 @@ autojump v22.2.4
 #### 查看安装目录
 which node
 
+
+#### 查看文件夹体积大小
+du -sh *
+
+#### 预览
+
+https://github.com/sindresorhus/quick-look-plugins
+
+
 #### 查看文件夹体积大小并排序
 
 - linux

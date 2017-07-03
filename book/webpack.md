@@ -28,3 +28,5 @@ module.exports = {
 ```
 
 
+
+[Webpack 2 中一些常见的优化措施](https://github.com/dwqs/blog/issues/52)

@@ -15,6 +15,7 @@
 - [React Router 中文文档](http://react-guide.github.io/react-router-cn/)
 
 - [React 中文文档](http://reactjs.cn/react/docs/getting-started.html)
+- [React 中文文档](https://discountry.github.io/react/)
 
 - [react-starter-kit](https://github.com/kriasoft/react-starter-kit) React Starter Kit — isomorphic web app boilerplate (Node.js/Express, GraphQL, React.js, Babel 6, PostCSS, Webpack, BrowserSync)
 - [通往全栈工程师的捷径 —— react - 腾讯bugly - 博客园](http://www.cnblogs.com/bugly/p/4988842.html)
@@ -43,6 +44,13 @@
 - [Baobab](https://github.com/Yomguithereal/baobab)
 
 - [Normalizes](https://github.com/paularmstrong/normalizr) 嵌套资源 保持状态扁平化
+
+
+### dva
+
+- [dva](https://github.com/dvajs/dva)
+- [dva文档](https://github.com/dvajs/dva/blob/master/docs/API_zh-CN.md)
+- [12 步 30 分钟，完成用户管理的 CURD 应用（基于 react, dva 和 antd）](https://github.com/sorrycc/blog/issues/18)
 
 
 ### 例子
@@ -137,3 +145,25 @@
 - 输入该设备的 IP 和 Reload JS
 
 
+
+### 说一说 React 和 Redux 你知道或者不知道的一些事情
+
+#### react性能优化的建议
+
+网上已经有很多react性能优化的文章，个人觉得性能优化本身是一个博弈的过程，在代码可读性、维护性与运行性能之间的博弈，很多时候性能优化牺牲了代码的可读性，因此要在合适的时间，在需求基本完成时再进行优化，并且优化中要着眼于性能的瓶颈，没有必要深挖每一个细节，破坏代码本身可读性。
+
+#### React使用中的一些博弈
+
+其实React的出现本身就一个博弈的结果，模板和逻辑的分离还是组合的一个博弈结果，React采用组件的方式把传统开发中的模板和逻辑放置在了一起。在选用React之前需要考虑下是否适合采用React。
+
+#### shouldComponentUpdate
+
+shouldComponentUpdate的加入是为了避免render方法的无效重复执行，但是如果shouldComponentUpdate函数本身会执行比较复杂的对比，那么加入shouldComponentUpdate得不偿失.
+
+#### redux 博弈
+
+在react中加入redux之后，会尽量设计"纯"component （即对于传入一定 props一定可以输出确定的结果），组件间、甚至组件内部的状态变化都要通过action来实现。但有时使用组件内部的state反而是一种最简便快捷的方式。
+
+#### 组件拆分的博弈
+
+组件拆分并不是颗粒越小越好，找到一个可以被复用的平衡点即可，拆分过细反而增加了代码的复杂度。

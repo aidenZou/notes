@@ -5,6 +5,7 @@
 - [Vue.js](https://github.com/vuejs/vue) [documentation](http://cn.vuejs.org/guide/)
 - [vue-router](https://github.com/vuejs/vue-router) [documentation](http://vuejs.github.io/vue-router/zh-cn/index.html) Vue.js 官方路由
 - [vue-resource](https://github.com/vuejs/vue-resource) 通过 XMLHttpRequest 或 JSONP 发起请求并处理响应
+- [vue-recyclerview](https://github.com/hilongjw/vue-recyclerview) Vue 超大数据列表解决方案
 - [vue-async-data](https://github.com/vuejs/vue-async-data) 异步加载数据插件
 - [vue-validator](https://github.com/vuejs/vue-validator) 表单验证插件
 - [vue-loader](http://vuejs.github.io/vue-loader/) [中文](http://hq5544.github.io/vue-webpack/index.html)
@@ -50,3 +51,50 @@ webpack - A full-featured Webpack + vue-loader setup with hot reload, linting, t
 webpack-simple - A simple Webpack + vue-loader setup for quick prototyping.
 
 
+
+
+### Vue核心文件目录
+
+```
+
+src/
+├── api/              # 接入微服务的基础 API
+├── App/              # App Root Component
+├── asset/            # 静态文件
+├── business/         # 业务
+├── component/        # 组件
+├── const/            # 常量
+├── event-bus/        # Event Bus 事件总线，类似 EventEmitter
+├── global/           # 通用定义的 directive, mixin 还有绑定到 Vue.prototype 的函数
+├── model/            # Model 抽象层
+├── repository/       # 仓库，接入 Vuex 中
+├── router/           # 路由
+├── service/          # 服务
+├── state/            # Vuex 状态管理
+├── style/            # 样式
+├── util/             # 通用 utility functions
+├── view/             # 各个页面
+├── client-entry.js   # 前端业务 & build
+├── server-entry.js   # SSR业务 & build
+├── ...
+└── main.js           # Vue Object Initiation
+
+基础设施层
+api/
+util/
+
+领域层 Domain
+service/       % 各个 Domain 下的基础功能业务
+repository/    %某一个独立 Domain 下的获取数据的业务
+model/         %数据抽象层
+
+业务层
+business/        % 各个 Domain 下的具体业务，会引用 service 和 repository 中定义的功能
+validator/       %不同数据的 validation 过程
+
+表现层
+state/
+router/
+component/
+view/            % Vue 下具体的交互展示层业务
+```

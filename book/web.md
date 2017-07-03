@@ -41,6 +41,7 @@
 - [前端工程——基础篇](http://div.io/topic/1275)
 - [ES5, ES6, ES2016, ES.Next: JavaScript 的版本是怎么回事？「译」](http://huangxuan.me/2015/09/22/js-version/)
 - [NPM 与前端包管理](https://github.com/cssmagic/blog/issues/57)
+- [package.json 说明](http://json.is/)
 - [让需求来得再猛烈些——快速响应需求的天猫H5首页新架构](https://github.com/tmallfe/tmallfe.github.io/issues/35)
 - [网上都说操作真实 DOM 慢，但测试结果却比 React 更快，为什么？](https://www.zhihu.com/question/31809713)
 - [如何简单区分Web前后端与MVC](https://github.com/calidion/calidion.github.io/issues/3)
@@ -132,6 +133,24 @@
 - [Material UI](https://github.com/callemall/material-ui)
 - [Ant Design](http://ant.design/) 基于 React & Ant Design（阿里蚂蚁金服体验技术部出品）
 - [React 前后端同构应用框架 Next.js](https://zeit.co/blog/next2)
+- [Fabric](http://dev.office.com/fabric#/components) 用于为 Office 和 Office 365 构建用户体验的 React 组件
+- [React Desktop](http://reactdesktop.js.org/)
+- [10 个打造 React.js App 的最佳 UI 框架](https://zhuanlan.zhihu.com/p/26973849)
+
+
+##### UWP
+
+- [React UWP](https://github.com/myxvisual/react-uwp) [官网](https://www.react-uwp.com/)
+
+
+#### Electron
+
+- [electron](https://electron.atom.io/)
+- [iview-cli](https://github.com/iview/iview-cli)
+- [weflow](https://weflow.io/)
+- [electron-builder](https://github.com/electron-userland/electron-builder)
+- [electron-packager](https://github.com/electron-userland/electron-packager)
+
 
 #### 微信
 
@@ -304,6 +323,8 @@ proxy server
 
 - [iscroll](https://github.com/cubiq/iscroll) [iScroll 5 API 中文版](https://iiunknown.gitbooks.io/iscroll-5-api-cn/content/)
 - [xscroll](https://github.com/huxiaoqi567/xscroll)
+- [finger-mover](https://github.com/HcySunYang/finger-mover)
+- [weScroll](https://github.com/weiying-shenzhen/weScroll)
 
 
 ### 轮播图&画廊
@@ -361,6 +382,7 @@ proxy server
 - [emojify.js](https://github.com/Ranks/emojify.js) 把Emoji关键词转换为表情图的JavaScript模块。
 - [jQuery.dotdotdot](https://github.com/BeSite/jQuery.dotdotdot) 多行内容先进的跨浏览器的省略。
 - [Code Push](http://microsoft.github.io/code-push/)
+- [autosize](https://github.com/jackmoore/autosize) textarea 小的独立脚本，可以自动调整textarea高度以适合文本
 
 
 - 代码规范有 ESLint
@@ -536,14 +558,6 @@ proxy server
 - [Node.js 在双十一中有哪些应用，表现如何？](https://www.zhihu.com/question/37379084)
 
 
-### http请求
-
-- request
-- superagent
-- axios
-
-
-
 ## 模板
 
 - [Jade](https://github.com/pugjs/jade) [语法文档](http://naltatis.github.io/jade-syntax-docs/)
@@ -573,6 +587,11 @@ proxy server
 	- [Atmosphere](https://atmospherejs.com/) Meteor扩展资源包
 
 
+## SPA SEO
+
+- [Prerender](https://prerender.io/)
+
+
 ## 后台管理模板
 
 - [admin template list](https://wrapbootstrap.com/tag/admin-template)
@@ -592,6 +611,19 @@ proxy server
 - [易速推](http://www.yisutui.com/) 易速推-免费制作微信h5游戏
 - [httpie](https://github.com/jkbrzt/httpie) CLI HTTP client
 
+
+### 性能工具
+
+- [Lighthouse](https://github.com/GoogleChrome/lighthouse) [doc](https://developers.google.com/web/tools/lighthouse/)
+
+
+## 文档
+
+- [GitBook](https://www.gitbook.com/)
+- [docsify](https://github.com/qingwei-li/docsify)
+- [vuep](https://github.com/QingWei-Li/vuep/) 实时编辑器和预览渲染Vue组件的组件
+
+
 ### 标注
 
 [神器！解放你的双手——UI设计稿全自动切图和标注的一些工具推荐](https://github.com/jawil/blog/issues/11#issuecomment-293573678)
@@ -608,6 +640,7 @@ proxy server
 - [Markcook--简洁、高效的markdown编辑器](https://github.com/jrainlau/markcook)
 - [kramdown](http://kramdown.gettalong.org/)
 - [HyperDown](https://github.com/SegmentFault/HyperDown)
+- [Showdown](https://github.com/showdownjs/showdown) 支持 todo
 
 
 ### Mock数据
@@ -626,11 +659,10 @@ proxy server
 - [Realm](https://realm.io/)
 - [localForage](https://github.com/localForage/localForage)
 
----
 
+## http请求
 
-Ajax 替代方案 Fetch API 是基于 Promise 设计
-
+- request
 - [axios](https://github.com/mzabriskie/axios)
 - [SuperAgent](https://github.com/visionmedia/superagent)
 - [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
@@ -643,6 +675,14 @@ Ajax 替代方案 Fetch API 是基于 Promise 设计
 - [如何把 Callback 接口包装成 Promise 接口](http://welefen.com/post/how-to-convert-callback-to-promise.html)
 
 - [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/)
+
+
+
+## F&RP
+
+
+- [函数响应式编程](https://github.com/malash/frp-introduction)
+
 
 
 ## Server
@@ -667,3 +707,7 @@ browser-sync start --proxy "192.168.1.222:8001" --files "templates/**" "static/*
 - 花生壳
 - [ngrok](https://ngrok.com/) 内网穿透利器
 
+
+## sql
+
+[mycli](http://mycli.net/) MyCLI是MySQL，MariaDB和Percona的命令行界面，具有自动完成和语法高亮。

@@ -5,6 +5,19 @@
 `eslint --init`
 
 
+## 规则
+
+### airbnb
+
+http://airbnb.io/javascript/
+[github](https://github.com/airbnb/javascript)
+
+### standard
+
+https://standardjs.com/
+[github](https://github.com/feross/standard)
+
+
 ```javascript
 /* global Swiper, _hmt */
 
