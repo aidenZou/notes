@@ -25,7 +25,8 @@
 
 
 - [nodemon](https://github.com/remy/nodemon)
-- [forever] forever是一个Node应用程序，用于一个子进程意外退出时，自动重启。
+- [supervisor](https://www.npmjs.com/package/supervisor)
+- [forever](https://www.npmjs.com/package/forever) forever是一个Node应用程序，用于一个子进程意外退出时，自动重启。
 - [PM2](https://github.com/Unitech/pm2) 用PM2守护Node.js进程，PM2相比以前的Forever有更强大的进程管理功能。
 
 - [log4js](https://github.com/nomiddlename/log4js-node)

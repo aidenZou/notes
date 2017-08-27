@@ -5,6 +5,7 @@
 > 非常欢迎您的 添加 和 修改（issues） 来共同完善常用lib，让 Web开发更简单和快捷
 
 - [前端技能汇总 Frontend Knowledge Structure](https://github.com/JacksonTian/fks)
+- [spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev)
 - [鼓励师](http://miku-dancing.coding.io/)
 - [md语法](http://nextstepwebs.github.io/simplemde-markdown-editor/markdown-guide)
 - [ECMAScript 6入门](http://es6.ruanyifeng.com/)
@@ -30,6 +31,8 @@
 - [前端知识体系整理（不断更新）](https://github.com/chemdemo/chemdemo.github.io/issues/1)
 - [移动时代的前端加密](http://div.io/topic/1220)
 - [h5端呼起摄像头扫描二维码并解析](http://div.io/topic/1562)
+- [IIFE](http://benalman.com/news/2010/11/immediately-invoked-function-expression/) 立即调用的函数表达式
+
 
 ## 点
 
@@ -86,10 +89,15 @@
 ##### MVV*
 
 - [Angular](https://github.com/angular/angular)
-	- [Angular面试从喜剧到悲剧的十个问题](https://segmentfault.com/a/1190000005817928)
+  - [Angular CLI](https://cli.angular.io/)
 	- [Angular Material](https://github.com/angular/material)
-- [Angular2]
-- [Angular CLI](https://cli.angular.io/)
+  - [Angular Material](https://github.com/angular/material2)
+  - [Zorro]
+  - [PrimeNG](https://github.com/primefaces/primeng)
+  - [Angular powered Bootstrap](https://github.com/ng-bootstrap/ng-bootstrap)
+  - [Jigsaw七巧板](https://github.com/rdkmaster/jigsaw) 来自ZTE中兴通讯的开源组件库Jigsaw（七巧板）
+  - [NiceFish](http://git.oschina.net/mumu-osc/NiceFish) NiceFish（美人鱼）是一个系列项目，全面演示了Angular最新版本的各种用法，从桌面端到移动端都有demo。
+  - [Angular面试从喜剧到悲剧的十个问题](https://segmentfault.com/a/1190000005817928)
 - [Avalon](https://github.com/RubyLouvre/avalon)
 - [Vue](https://github.com/vuejs/vue)
   - [Vue资料总汇](http://www.jianshu.com/p/afd8e1db7d9b)
@@ -146,10 +154,13 @@
 #### Electron
 
 - [electron](https://electron.atom.io/)
-- [iview-cli](https://github.com/iview/iview-cli)
-- [weflow](https://weflow.io/)
+- [electron-forge](https://github.com/electron-userland/electron-forge)
+
 - [electron-builder](https://github.com/electron-userland/electron-builder)
 - [electron-packager](https://github.com/electron-userland/electron-packager)
+
+- [iview-cli](https://github.com/iview/iview-cli)
+- [weflow](https://weflow.io/)
 
 
 #### 微信
@@ -185,6 +196,29 @@
 #### polyfill
 
 - [polyfill service](https://polyfill.io/v2/docs/)
+- [21 分钟精通前端 Polyfill 方案](http://www.sitixi.com/blog/14994835126345.html)
+
+- babel -babel 的编译不会做 polyfill 如：Object.assign({}, {a: 1});
+- polyfill
+  - babel-plugin-transform-xxx
+    > transform 的引用是 module 级别的
+  
+  - babel-runtime & babel-plugin-transform-runtime
+    > 从一个统一的地方 core-js 自动引入对应的方法。babel-plugin-transform-runtime 依然不是全局生效的
+    var o = Object;
+    o.assign({}, {a: 1});
+
+  - babel-polyfill
+    > 通过改变全局来兼容 es2015 所有方法的 babel-polyfill。特点：体积大
+
+  - babel-preset-env
+    > 根据指定目标环境判断需要做哪些编译
+
+  - polyfill.io
+    > polyfill service 会判断浏览器 UA 返回不同的 polyfill 文件
+    > https://cdn.polyfill.io/v2/polyfill.js
+    > https://github.com/Financial-Times/polyfill-service
+
 
 #### 下载
 
@@ -254,6 +288,8 @@ proxy server
   - [Webpack 中文指南](https://github.com/zhaoda/webpack-handbook)
   - [Webpack 入门指迷](https://segmentfault.com/a/1190000002551952)
   - [WebpackBin](http://www.webpackbin.com/)
+- [rollup.js](https://rollupjs.org/)
+- [jspm](https://jspm.io/)
 - [FIS](http://fis.baidu.com/)
 - [gulp](http://gulpjs.com/)
 - [Grunt](http://gruntjs.com/)
@@ -288,7 +324,8 @@ proxy server
 - [Web组件库](https://github.com/zhiqiang21/WebComponent) [Web组件库 如："跑马灯"的抽奖效果。
 - [NProgress](https://github.com/rstacruz/nprogress/) 进度条
 - [Choices](https://github.com/jshjohnson/Choices) [演示](https://joshuajohnson.co.uk/Choices/)
-- [Draggabilly](https://github.com/desandro/draggabilly) 拖放
+- [Draggabilly](https://github.com/desandro/draggabilly) 拖拽
+- [taye_interact](https://github.com/taye/interact.js) 拖拽
 - [picker](https://github.com/ustbhuangyi/picker) 移动端最好用的的筛选器组件，高仿 ios 的 UIPickerView ，非常流畅的体验。
 - [Swipe](https://github.com/lyfeyaj/swipe)
 
@@ -391,6 +428,9 @@ proxy server
 - 代码覆盖率用 istanbul，
 
 - [Web 前端开发规范文档](http://codecloud.net/5622.html)
+- [Baidu EFE team 规范](https://github.com/ecomfe/spec)
+- [语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
+
 
 #### ESLint
 
@@ -403,6 +443,9 @@ proxy server
 - [ProcessOn](https://www.processon.com/)
 - [png 图片压缩](https://tinypng.com/)
 - [CSS3 Keyframes Animation Generator](http://cssanimate.com/) 在线制作css动画
+- [StackBlitz](https://stackblitz.com/) Online VS Code IDE for Angular & React.
+- [CODESANDBOX](https://codesandbox.io/)
+- [Mathcha](https://www.mathcha.io/)
 
 
 
@@ -426,6 +469,7 @@ proxy server
 
 - [带你轻松打开SVG动画的大门](https://isux.tencent.com/svg-animate.html) [SVG效果](http://s.codepen.io/aidenzou/debug/NrRRGx)
 
+- [canvg](https://github.com/canvg/canvg)
 
 ### 另类
 
@@ -460,6 +504,8 @@ proxy server
   > 推荐用 Normalize CSS
 
 - [tachyons](https://github.com/tachyons-css/tachyons)
+
+- [CSS Modules](https://github.com/css-modules/css-modules)
 
 - [CSS 图片滤镜](http://una.im/CSSgram/)
 - [css实现多边形](http://docs.79px.com/single-div/#/) css实现多边形
@@ -575,7 +621,8 @@ proxy server
 - [MUI](https://github.com/dcloudio/mui/)
 - [APICloud](http://www.apicloud.com/)
 
-- [weex](http://alibaba.github.io/weex/index.html) 淘宝团队基于 vue开发，暂未开源
+- [weex](http://alibaba.github.io/weex/index.html) 淘宝团队基于 vue开发
+- [Rax](https://github.com/alibaba/rax) Rax - 跨容器的渲染引擎
 
 - [Hybrid APP架构设计思路](https://github.com/chemdemo/chemdemo.github.io/issues/12)
 
@@ -585,6 +632,13 @@ proxy server
 
 - [Meteor](https://www.meteor.com/)
 	- [Atmosphere](https://atmospherejs.com/) Meteor扩展资源包
+
+
+## PWA
+
+- [offline-plugin](https://github.com/NekR/offline-plugin)
+- [preact-cli](https://github.com/developit/preact-cli)
+- [vue-pwa](https://github.com/vuejs-templates/pwa)
 
 
 ## SPA SEO
@@ -622,6 +676,8 @@ proxy server
 - [GitBook](https://www.gitbook.com/)
 - [docsify](https://github.com/qingwei-li/docsify)
 - [vuep](https://github.com/QingWei-Li/vuep/) 实时编辑器和预览渲染Vue组件的组件
+- [docute](https://github.com/egoist/docute)
+- [MkDocs](http://www.mkdocs.org/)
 
 
 ### 标注
@@ -638,15 +694,20 @@ proxy server
 ### Markdown
 
 - [Markcook--简洁、高效的markdown编辑器](https://github.com/jrainlau/markcook)
+- [marked](https://github.com/chjj/marked)
 - [kramdown](http://kramdown.gettalong.org/)
 - [HyperDown](https://github.com/SegmentFault/HyperDown)
 - [Showdown](https://github.com/showdownjs/showdown) 支持 todo
+- [mermaid](https://github.com/knsv/mermaid) [官网](https://knsv.github.io/mermaid/index.html) 以类似于markdown的方式从文本生成图表和流程图
+- [flowchart.js](https://github.com/adrai/flowchart.js) 流程图
+- [js-sequence-diagrams](https://github.com/bramp/js-sequence-diagrams) 时序图
 
 
 ### Mock数据
 - [Mock.js](http://mockjs.com/) 生成随机数据，拦截 Ajax 请求
 	- [demo](http://codepen.io/aidenzou/pen/EKKZwK)
 - [RAP](https://github.com/thx/RAP)
+- [TommyLemon/APIJSON](https://github.com/TommyLemon/APIJSON)
 
 
 ## 游戏引擎
@@ -677,12 +738,13 @@ proxy server
 - [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/)
 
 
-
 ## F&RP
 
-
 - [函数响应式编程](https://github.com/malash/frp-introduction)
-
+- [RxJS](https://github.com/ReactiveX/RxJS)
+- [most](https://github.com/cujojs/most)
+- [xstream](https://github.com/staltz/xstream)
+- [Cycle.js](https://cycle.js.org/)
 
 
 ## Server
@@ -711,3 +773,14 @@ browser-sync start --proxy "192.168.1.222:8001" --files "templates/**" "static/*
 ## sql
 
 [mycli](http://mycli.net/) MyCLI是MySQL，MariaDB和Percona的命令行界面，具有自动完成和语法高亮。
+
+
+## 数据
+
+- [Google 趋势](https://trends.google.com/trends/)
+- [trending](https://github.com/trending) Trending repositories on GitHub today
+
+
+## 小程序
+
+- [wxapp-unpack](http://10.5.235.121:9092/#/) 微信小程序反编译服务

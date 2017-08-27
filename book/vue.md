@@ -29,6 +29,13 @@
 - [Mint UI](http://mint-ui.github.io/#!/zh-cn) 饿了么
 
 
+## 工具
+
+- [vue-markdown-loader](https://github.com/QingWei-Li/vue-markdown-loader)
+- [vue-demo-loader](https://github.com/Jokcy/vue-demo-loader)
+- [vuep](https://github.com/QingWei-Li/vuep/) [官网](https://cinwell.com/vuep)
+
+
 ## vue-cli
 
 [https://github.com/vuejs/vue-cli](https://github.com/vuejs/vue-cli)
@@ -49,7 +56,6 @@ browserify-simple - A simple Browserify + vueify setup for quick prototyping.
 webpack - A full-featured Webpack + vue-loader setup with hot reload, linting, testing & css extraction.
 
 webpack-simple - A simple Webpack + vue-loader setup for quick prototyping.
-
 
 
 
