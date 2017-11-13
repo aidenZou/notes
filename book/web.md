@@ -11,6 +11,7 @@
 - [ECMAScript 6入门](http://es6.ruanyifeng.com/)
 - [es6-cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
 - [babel在线编译](https://babeljs.io/repl/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [前端那么大，我想去看看](http://div.io/topic/1550)
 - [前端收集](https://github.com/foru17/front-end-collect)
 
@@ -28,15 +29,24 @@
 - [JavaScript 模块化七日谈](http://huangxuan.me/js-module-7day/#/)
 - [前端模块化开发的价值(玉伯)](https://github.com/seajs/seajs/issues/547)
 - [前端模块化开发那点历史 - 玉伯](http://blog.jobbole.com/35528/)
+- [模块化简史](https://ponyfoo.com/articles/brief-history-of-modularity#nodejs-and-the-advent-of-commonjs)
 - [前端知识体系整理（不断更新）](https://github.com/chemdemo/chemdemo.github.io/issues/1)
 - [移动时代的前端加密](http://div.io/topic/1220)
 - [h5端呼起摄像头扫描二维码并解析](http://div.io/topic/1562)
 - [IIFE](http://benalman.com/news/2010/11/immediately-invoked-function-expression/) 立即调用的函数表达式
+- [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
 
 
 ## 点
 
 - [运算符优先级](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+
+
+### UA（UserAgent）
+
+- [谈谈 UserAgent 字符串的规律和伪造方法](https://www.urlteam.org/2017/07/%E8%B0%88%E8%B0%88-useragent-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E8%A7%84%E5%BE%8B%E5%92%8C%E4%BC%AA%E9%80%A0%E6%96%B9%E6%B3%95/)
+- [浏览器野史 UserAgent列传（上）](http://litten.me/2014/09/26/history-of-browser-useragent/)
+- [浏览器野史 UserAgent列传（下）](http://litten.me/2014/10/05/history-of-browser-useragent2/)
 
 
 ### 文章
@@ -70,9 +80,19 @@
 - [抓包神器Fiddler](http://w3cboy.com/post/2015/03/%E6%8A%93%E5%8C%85%E7%A5%9E%E5%99%A8Fiddler/)
 
 
+## Style
+
+- [Bulma](https://github.com/jgthms/bulma)
+- [Pure](https://github.com/yahoo/pure)
+- [Basscss](https://github.com/basscss/basscss/) 原子类
+
+
 ## ICON
 
 - [icono](https://github.com/saeedalipoor/icono)
+
+- [如何在 CSS 背景图片中对 SVG 图片进行着色](http://svgtrick.com/tricks/3b3a77a38f6222b7974039c1ba36abba)
+- [SVG in CSS backgrounds](https://codepen.io/noahblon/post/coloring-svgs-in-css-background-images)
 
 
 ## iconfont
@@ -80,7 +100,6 @@
 - [Iconfont-阿里巴巴矢量图标库](http://www.iconfont.cn/)
 - [IcoMoon](https://icomoon.io/)
 - [Font Awesome](http://fontawesome.io/) [中文](http://fontawesome.dashgame.com/)
-
 
 ### 加载
 
@@ -106,7 +125,10 @@
   - [Vue.js相关](https://github.com/vuejs/awesome-vue)
   - [vue-mui](https://github.com/creatshare/vue-mui)
   - [vue-mobile](https://github.com/lihongxun945/vue-mobile)
+  - [Element](https://github.com/ElemeFE/element) [Element UI 贡献指南](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.zh-CN.md)
   - [Mint UI](https://github.com/ElemeFE/mint-ui/)
+  - [cube-ui](https://github.com/didi/cube-ui/)
+
 
 ##### Other
 
@@ -143,6 +165,7 @@
 - [React 前后端同构应用框架 Next.js](https://zeit.co/blog/next2)
 - [Fabric](http://dev.office.com/fabric#/components) 用于为 Office 和 Office 365 构建用户体验的 React 组件
 - [React Desktop](http://reactdesktop.js.org/)
+- [RSUITE](https://rsuitejs.com/) 一套 React 的 UI 组件库
 - [10 个打造 React.js App 的最佳 UI 框架](https://zhuanlan.zhihu.com/p/26973849)
 
 
@@ -187,7 +210,6 @@
 - [Device detection (phone, tablet, desktop, mobile grade, os, versions) ](https://github.com/hgoebl/mobile-detect.js)
 - [jsqrcode](https://github.com/LazarSoft/jsqrcode) Javascript的QRCode的扫描仪(依赖一个叫getUserMedia的属性)
 - [Mobiscroll](http://www.mobiscroll.com/)
-- [Moment](http://momentjs.cn/) JavaScript 日期处理类库
 - [QRCode](https://github.com/davidshimjs/qrcodejs)
 - [offline](https://github.com/hubspot/offline) 自动显示在线/离线显示给用户
 - [Intro.js](https://github.com/usablica/intro.js) 新功能介绍和一步一步的用户指南
@@ -249,6 +271,9 @@
 - [jsonohyeah](http://www.jsonohyeah.com/) JSON-Editor-Mocker [中文输入有 bug]
 
 
+- [react-jsonschema-form](https://github.com/mozilla-services/react-jsonschema-form)
+
+
 ### 调试
 
 - [端开发中的JS调试技巧](http://www.cnblogs.com/miragele/p/5394396.html)
@@ -259,6 +284,8 @@
 - [DebugGap](http://www.debuggap.com/)
 - [Browsersync](https://www.browsersync.io/)
 - [spy-debugger](https://github.com/wuchangming/spy-debugger)
+- [Eruda](https://github.com/liriliri/eruda) Eruda: Console for Mobile Browsers
+
 
 proxy server
 
@@ -271,6 +298,8 @@ proxy server
 
 - [javascript-error-monitor](http://rapheal.sinaapp.com/2014/11/06/javascript-error-monitor/)
 
+- [聊一聊 JavaScript 中的错误隔离](http://taobaofed.org/blog/2016/11/10/prevent-prop-access-error-in-js/)
+- [JavaScript 需要检查变量类型吗](https://segmentfault.com/a/1190000009070005)
 
 
 ### 测试工具
@@ -278,6 +307,13 @@ proxy server
 - [Mocha](http://mochajs.org/)
 - [Chai](http://chaijs.com/)
 - [Sinon.JS](http://sinonjs.org/)
+
+- [weinre](http://people.apache.org/~pmuellr/weinre/docs/latest/)
+- [node-mitmproxy](https://github.com/wuchangming/node-mitmproxy)
+- [AnyProxy](https://github.com/alibaba/anyproxy)
+- [spy-debugger](https://github.com/wuchangming/spy-debugger)
+
+- [F2etest](https://github.com/alibaba/f2etest) F2etest是一个面向前端、测试、产品等岗位的多浏览器兼容性测试整体解决方案。
 
 
 ### 构建
@@ -299,10 +335,13 @@ proxy server
 
 #### 优化
 
+- [JavaScript 小知识](http://www.jstips.co/zh_CN/)
+  - [优化嵌套的条件语句](http://www.jstips.co/zh_cn/javascript/improve-nested-conditionals/)
 - [pagespeed](https://developers.google.com/speed/pagespeed/insights/)
 
 ### 数据
 
+- [Ramda](https://github.com/ramda/ramda) [Ramda 中文](http://ramda.cn/) [Pointfree 编程风格指南](http://www.ruanyifeng.com/blog/2017/03/pointfree.html)
 - [lodash](https://lodash.com/) [中文文档](http://lodash.qiuqudou.com/) [中文文档](http://lodash.think2011.net/)
 - [Underscore.js](https://github.com/jashkenas/underscore) [中文文档](http://www.css88.com/doc/underscore/)
 - [Lazy.js](https://github.com/dtao/lazy.js)
@@ -314,6 +353,9 @@ proxy server
 - [flyd](https://github.com/paldepind/flyd)
 - [Immutable.js](https://github.com/facebook/immutable-js)
 - [Normalizes](https://github.com/paularmstrong/normalizr) Normalizes nested JSON according to a schema
+
+
+> 函数式编程是一种编程的模式，在这种编程模式中最常用的函数和表达式。它强调在编程的时候用函数的方式思考问题，函数也与其他数据类型一样，处于平等地位。可以将函数作为参数传入另一个函数，也可以作为别的函数的返回值。函数式编程倾向于用一系列嵌套的函数来描述运算过程。
 
 
 ### 组件
@@ -330,6 +372,11 @@ proxy server
 - [Swipe](https://github.com/lyfeyaj/swipe)
 
 - [工作中经常用到github上优秀、实用、轻量级、无依赖的插件和库](https://github.com/jawil/blog/issues/10)
+
+
+- #### 编辑器
+
+- [CKEditor](https://docs.ckeditor.com/)
 
 
 ### 666
@@ -446,11 +493,12 @@ proxy server
 - [StackBlitz](https://stackblitz.com/) Online VS Code IDE for Angular & React.
 - [CODESANDBOX](https://codesandbox.io/)
 - [Mathcha](https://www.mathcha.io/)
-
+- [Expo](https://expo.io)
 
 
 ### 日期
 
+- [Moment](https://momentjs.com/) [Moment](http://momentjs.cn/) JavaScript 日期处理类库
 - [日期兼容性](http://dygraphs.com/date-formats.html) 日期兼容性
 - [My97 DatePicker](http://www.my97.net/)
 - [lCalendar移动端日期时间选择控件](https://github.com/aidenzou/lCalendar)
@@ -522,9 +570,15 @@ proxy server
 - [异步脚本载入提高页面性能](http://harttle.coding.me/2016/05/18/async-javascript-loading.html)
 
 
+#### SASS
+
+- [SassMeister](https://www.sassmeister.com/) sass 在线转换css
+
+
 #### PostCSS
 
 - [PostCSS](https://github.com/postcss/postcss)
+- [cssnano_](http://cssnano.co/)
 - [autoprefixer](https://github.com/postcss/autoprefixer)
 - [cssnext](https://github.com/MoOx/postcss-cssnext)
 - [postcss-alias](https://github.com/seaneking/postcss-alias) 插件可以创建自定义的简写属性
@@ -541,6 +595,20 @@ proxy server
 - [postcss-color-short](https://github.com/andrepolischuk/postcss-color-short) 插件使您能够使用一至两位数实现十六进制编码和其他颜色写法的简写。
 - [PreCSS](https://github.com/jonathantneal/precss) PostCSS插件包 [大漠教程](http://www.w3cplus.com/PostCSS/postcss-deep-dive-preprocessing-with-precss.html)
 - [PreCSS的在线编辑器](http://jonathantneal.github.io/precss/)
+
+
+Postcss-salad由以下插件
+- precss：一种允许您在CSS文件中使用Sass类标记的工具
+- postcss-css-reset：重置风格取决于normalize.css并结合最佳实践。
+- postcss-utils：帮助您通过规则快速创建功能片段。
+- postcss-bem：实施BEM作为规则
+- postcss-calc：插件来减少calc（）
+- postcss-initial：回退初始关键字
+- postcss-inline-svg：引用SVG文件并使用CSS语法控制其属性。
+- postcss-short：通过扩展CSS中的缩写属性，可以更加逻辑地编写样式。
+- postcss-shape：在css规则中绘制具有指定语法的基本形状
+- node-pixrem：为rem单位生成像素后备。
+- autoprefixer：解析CSS，并使用“可以使用”中的值向CSS规则添加供应商前缀
 
   > 开发一款属于自己的预处理器：根据自己的编码习惯和项目需求，手动配置语言扩展包，从而定制出属于自己的预处理器。
 
@@ -586,9 +654,10 @@ proxy server
 
 - [n](https://github.com/tj/n)
 - [Node Version Manager ](https://github.com/creationix/nvm)
+- [nave](https://github.com/isaacs/nave)
 - [Express](https://github.com/strongloop/express)
 - [Koa](https://github.com/koajs/koa)
-	- [一起学koa](https://github.com/base-n/koa-generator-examples)
+  - [一起学koa](https://github.com/base-n/koa-generator-examples)
 - [hapi](https://github.com/hapijs/hapi)
 - [ThinkJS](https://github.com/75team/thinkjs) [官网](https://thinkjs.org/)
 - [Chair](http://yq.aliyun.com/articles/2921) Chair是支付宝前端团队推出的，基于Node.js的Web框架，适用于大部分的Web应用。
@@ -622,6 +691,7 @@ proxy server
 - [APICloud](http://www.apicloud.com/)
 
 - [weex](http://alibaba.github.io/weex/index.html) 淘宝团队基于 vue开发
+  - [weex-ui](https://github.com/alibaba/weex-ui) https://camo.githubusercontent.com/86b08b55e475ccd2f8ecfed0098acbb5bec36adf/68747470733a2f2f696d672e616c6963646e2e636f6d2f7466732f5442314f32756c68676f514d654a6a7930466f58586353685658612d313238322d3938362e6a7067
 - [Rax](https://github.com/alibaba/rax) Rax - 跨容器的渲染引擎
 
 - [Hybrid APP架构设计思路](https://github.com/chemdemo/chemdemo.github.io/issues/12)
@@ -664,6 +734,12 @@ proxy server
 - [open5](http://open5.net/) 阿里有一个支持在线编辑的H5 Silder
 - [易速推](http://www.yisutui.com/) 易速推-免费制作微信h5游戏
 - [httpie](https://github.com/jkbrzt/httpie) CLI HTTP client
+
+- [asciinema](https://asciinema.org/) 一个在终端下非常棒的录制分享软件，基于文本的录屏工具，对终端输入输出进行捕捉
+
+## 终端工具
+
+- [ora](https://www.npmjs.com/package/ora) Elegant terminal spinner
 
 
 ### 性能工具
@@ -708,6 +784,7 @@ proxy server
 	- [demo](http://codepen.io/aidenzou/pen/EKKZwK)
 - [RAP](https://github.com/thx/RAP)
 - [TommyLemon/APIJSON](https://github.com/TommyLemon/APIJSON)
+- [YApi](http://yapi.demo.qunar.com/)
 
 
 ## 游戏引擎
@@ -779,6 +856,9 @@ browser-sync start --proxy "192.168.1.222:8001" --files "templates/**" "static/*
 
 - [Google 趋势](https://trends.google.com/trends/)
 - [trending](https://github.com/trending) Trending repositories on GitHub today
+
+- [CSS3 Test](http://css3test.com/)
+- [HTML5test](https://html5test.com/)
 
 
 ## 小程序

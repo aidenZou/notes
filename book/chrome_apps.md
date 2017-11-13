@@ -33,3 +33,10 @@
 
 - [Infinity](http://infinitynewtab.com/)
 - [微度新标签页(APP)](https://chrome.google.com/webstore/detail/%E5%BE%AE%E5%BA%A6%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5app/dlmmfcbpgflaeiipmbhelananakfcodj?utm_source=chrome-ntp-launcher)
+
+
+
+### dev
+
+- [360 综述--扩展开发文档](http://open.chrome.360.cn/extension_dev/overview.html)
+- [Chrome扩展及应用开发](http://www.ituring.com.cn/book/1421)

@@ -30,3 +30,9 @@ module.exports = {
 
 
 [Webpack 2 中一些常见的优化措施](https://github.com/dwqs/blog/issues/52)
+
+
+
+### Plugins
+
+- [webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)

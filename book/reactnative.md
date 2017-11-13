@@ -46,6 +46,7 @@ react-native run-ios
 - [聊天界面](https://github.com/FaridSafi/react-native-gifted-messenger)
 - [Marvel](https://github.com/Shuijwan/marvel) 一个React Native的练手App，利用Marvel的API来显示一些Marvel动漫的信息.
 - [reading](https://github.com/attentiveness/reading)
+- [Mozi](https://github.com/duheng/Mozi)
 
 
 ## IDE

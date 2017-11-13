@@ -5,7 +5,19 @@
 
 ## 工具
 
+- [火焰图](https://github.com/brendangregg/FlameGraph)
+
 ### 统计代码行数
 
 [loc](https://github.com/cgag/loc)
 [cloc](https://github.com/AlDanial/cloc)
+
+
+
+
+## 镜像
+
+- [RubyGems 镜像 - Ruby China](http://gems.ruby-china.org/) RubyGems 镜像 - Ruby China
+- [RubyGems 镜像 - 淘宝网](https://ruby.taobao.org/) RubyGems 镜像 - 淘宝网（暂停维护）
+- [](https://pkg.phpcomposer.com/)
+- [163 Debian镜像](http://mirrors.163.com/.help/debian.html)
