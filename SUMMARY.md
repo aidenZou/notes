@@ -3,6 +3,7 @@
 * [自述](README.md)
 * 开发
   * [导航](book/blog.md)
+  * [环境搭建](book/环境搭建.md)
   * [web](book/web.md)
   * [Flex布局](book/flex.md)
   * [mac](book/mac.md)
