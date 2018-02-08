@@ -23,8 +23,30 @@ var rm = require('rimraf').sync
 ```
 
 
-### 构建
+"dependencies": {
+    "async": "^2.5.0",
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "inquirer": "^3.0.6",
+    "is": "^3.2.1",
+    "multimatch": "^2.1.0",
+    "ora": "^1.3.0",
+    "phpdate-js": "^1.0.2",
+    "request": "^2.81.0",
+    "scp2": "^0.5.0",
+    "semver": "^5.4.1",
+    "simple-git": "^1.77.0",
+    "ssh2shell": "^1.7.0",
+    "tar-fs": "^1.15.3"
+},
+"devDependencies": {
+    "chai": "^4.1.2",
+    "jquery": "^3.1.1",
+    "mocha": "^4.0.1",
+    "webpack": "^2.2.1"
+}
 
+### 构建
 
 - cross-env 设置 node环境变量
 - child_process
@@ -40,6 +62,10 @@ app-root-path
 
 - [Commitizen](https://www.npmjs.com/package/commitizen) 一个撰写合格 Commit message 的工具
 - [crypto-js ](https://www.npmjs.com/package/crypto-js) 加密
+- [protobuf.js](https://github.com/dcodeIO/protobuf.js) 用于JavaScript的协议缓冲区
+
+
+- [PhantomJS](https://github.com/ariya/phantomjs)
 
 
 ### 其它

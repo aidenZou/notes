@@ -7,6 +7,9 @@
 
 - [火焰图](https://github.com/brendangregg/FlameGraph)
 
+- [Frida](https://github.com/frida/frida) Frida是一个动态代码插桩框架
+
+
 ### 统计代码行数
 
 [loc](https://github.com/cgag/loc)

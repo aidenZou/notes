@@ -6,6 +6,9 @@
 
 - [响应式图像终于有超赞的解决方案了！](http://www.uisdc.com/responsive-image-design)
 
+
+- [be-a-professional-programmer](https://github.com/stanzhai/be-a-professional-programmer) 成为专业程序员路上用到的各种优秀资料、神器及框架
+
 ### 微信
 
 - [QQ浏览器X5内核问题汇总](https://www.qianduan.net/qqliu-lan-qi-x5nei-he-wen-ti-hui-zong/)

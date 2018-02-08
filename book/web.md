@@ -20,6 +20,7 @@
 ## 常用
 
 - [颜色](http://s.codepen.io/aidenzou/debug/EPLBmK)
+- [色彩对比值校验工具](http://leaverou.github.io/contrast-ratio/)
 - [Material design](https://www.google.com/design/spec/material-design/introduction.html)
 - [UA解析库](http://fex.baidu.com/ua-device/)
 
@@ -66,9 +67,10 @@
 - [为什么说DOM操作很慢](https://leozdgao.me/why-dom-slow/)
 
 
-## 数据
+## 在线浏览器检测
 
 - [caniuse](http://caniuse.com/) 浏览器兼容性
+- [WhichBrowser](https://whichbrowser.net/)
 
 
 ## 神器
@@ -85,6 +87,13 @@
 - [Bulma](https://github.com/jgthms/bulma)
 - [Pure](https://github.com/yahoo/pure)
 - [Basscss](https://github.com/basscss/basscss/) 原子类
+- [Primer](https://github.com/primer/primer) The design system that powers GitHub
+
+
+### 方案
+
+- [glamor](https://github.com/threepointone/glamor)
+- [styled-components](https://www.styled-components.com/)
 
 
 ## ICON
@@ -169,6 +178,7 @@
 - [React Desktop](http://reactdesktop.js.org/)
 - [RSUITE](https://rsuitejs.com/) 一套 React 的 UI 组件库
 - [10 个打造 React.js App 的最佳 UI 框架](https://zhuanlan.zhihu.com/p/26973849)
+- [Preact](https://github.com/developit/preact)
 
 
 ##### UWP
@@ -215,6 +225,13 @@
 - [QRCode](https://github.com/davidshimjs/qrcodejs)
 - [offline](https://github.com/hubspot/offline) 自动显示在线/离线显示给用户
 - [Intro.js](https://github.com/usablica/intro.js) 新功能介绍和一步一步的用户指南
+
+
+
+### 脚手架
+
+- [从vue-cli源码学习如何写模板](https://github.com/dwqs/blog/issues/56)
+
 
 
 #### polyfill
@@ -287,6 +304,8 @@
 - [Browsersync](https://www.browsersync.io/)
 - [spy-debugger](https://github.com/wuchangming/spy-debugger)
 - [Eruda](https://github.com/liriliri/eruda) Eruda: Console for Mobile Browsers
+- [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy)
+- [我的webview调试工具](https://segmentfault.com/a/1190000008686184)
 
 
 proxy server
@@ -317,6 +336,8 @@ proxy server
 
 - [F2etest](https://github.com/alibaba/f2etest) F2etest是一个面向前端、测试、产品等岗位的多浏览器兼容性测试整体解决方案。
 
+- [puppeteer](https://github.com/GoogleChrome/puppeteer) Headless Chrome Node API
+
 
 ### 构建
 
@@ -326,6 +347,7 @@ proxy server
   - [Webpack 中文指南](https://github.com/zhaoda/webpack-handbook)
   - [Webpack 入门指迷](https://segmentfault.com/a/1190000002551952)
   - [WebpackBin](http://www.webpackbin.com/)
+- [📦 Parcel](https://github.com/parcel-bundler/parcel) [官网](https://parceljs.org/)
 - [rollup.js](https://rollupjs.org/)
 - [jspm](https://jspm.io/)
 - [FIS](http://fis.baidu.com/)
@@ -333,6 +355,13 @@ proxy server
 - [Grunt](http://gruntjs.com/)
   - [Grunt 中文网](http://gruntjs.cn/)
 - [tinypng](https://tinypng.com/) 图片压缩
+- [UPNG](http://upng.photopea.com/)
+
+
+### 发布
+
+- [Shipit](https://github.com/shipitjs/shipit)
+- [fjpublish](https://github.com/zczhangchao51/fjpublish/) [doc](http://fjpublish.manman.io/)
 
 
 #### 优化
@@ -379,6 +408,9 @@ proxy server
 - #### 编辑器
 
 - [CKEditor](https://docs.ckeditor.com/)
+- [Monaco Editor](https://github.com/Microsoft/monaco-editor)
+- [Slate](https://github.com/ianstormtaylor/slate) [doc](https://docs.slatejs.org/) [Slate 中文文档](https://doodlewind.github.io/slate-doc-cn/)
+- [Draft.js](https://github.com/facebook/draft-js) facebook [官网](https://draftjs.org/)
 
 
 ### 666
@@ -407,6 +439,7 @@ proxy server
 
 ### Scroll
 
+- [BetterScroll](https://github.com/ustbhuangyi/better-scroll)
 - [iscroll](https://github.com/cubiq/iscroll) [iScroll 5 API 中文版](https://iiunknown.gitbooks.io/iscroll-5-api-cn/content/)
 - [xscroll](https://github.com/huxiaoqi567/xscroll)
 - [finger-mover](https://github.com/HcySunYang/finger-mover)
@@ -469,6 +502,8 @@ proxy server
 - [jQuery.dotdotdot](https://github.com/BeSite/jQuery.dotdotdot) 多行内容先进的跨浏览器的省略。
 - [Code Push](http://microsoft.github.io/code-push/)
 - [autosize](https://github.com/jackmoore/autosize) textarea 小的独立脚本，可以自动调整textarea高度以适合文本
+
+- [在JAVASCRIPT中复制和粘贴](https://www.lucidchart.com/techblog/2014/12/02/definitive-guide-copying-pasting-javascript/)
 
 
 - 代码规范有 ESLint
@@ -614,7 +649,17 @@ Postcss-salad由以下插件
 
   > 开发一款属于自己的预处理器：根据自己的编码习惯和项目需求，手动配置语言扩展包，从而定制出属于自己的预处理器。
 
+
+#### 美化
+
+- [Prettier](https://github.com/prettier/prettier)
+- [Reshape](https://github.com/reshape/reshape)
+
+
 #### Other
+
+- [PostHTML](https://github.com/posthtml/posthtml)
+
 
 - [Juiced](https://github.com/ovdojoey/Juiced) Flexbox CSS 框架
 - [Drop](https://github.com/HubSpot/drop) 用于创建下拉菜单和其他浮动元素的库。
@@ -638,6 +683,7 @@ Postcss-salad由以下插件
 
 ## 坑
 
+- [数值](http://javascript.ruanyifeng.com/grammar/number.html#toc1)
 - [在IOS7上实现0.5px的border](http://blog.yaobieting.com/me/archives/zero-point-five-px-border.html) [demo](http://s.codepen.io/aidenzou/debug/vGVjVw)
 - [这里收集了许多移动端上遇到的各种坑](https://github.com/aidenzou/mobileHack)
 
@@ -703,7 +749,7 @@ Postcss-salad由以下插件
 
 
 - [Meteor](https://www.meteor.com/)
-	- [Atmosphere](https://atmospherejs.com/) Meteor扩展资源包
+  - [Atmosphere](https://atmospherejs.com/) Meteor扩展资源包
 
 
 ## PWA
@@ -742,6 +788,8 @@ Postcss-salad由以下插件
 ## 终端工具
 
 - [ora](https://www.npmjs.com/package/ora) Elegant terminal spinner
+
+- [Hyper™](https://github.com/zeit/hyper) 基于Web技术的终端
 
 
 ### 性能工具
@@ -866,3 +914,4 @@ browser-sync start --proxy "192.168.1.222:8001" --files "templates/**" "static/*
 ## 小程序
 
 - [wxapp-unpack](http://10.5.235.121:9092/#/) 微信小程序反编译服务
+- [Hera](https://github.com/weidian-inc/hera)

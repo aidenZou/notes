@@ -49,6 +49,8 @@ https://letsencrypt.org/
 - [Pixel Winch（精确 UI 测距）](http://www.ricciadams.com/projects/pixel-winch)
 
 - [alfredworkflow](http://alfredworkflow.com/)
+	- [MWeb workflow](https://github.com/tianhao/alfred-mweb-workflow)
+
 
 - [Sketch] Sketch UI设计
 

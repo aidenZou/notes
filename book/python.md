@@ -1,3 +1,29 @@
+# python
+
+## 基础
+
+- [Python 3 教程](http://www.runoob.com/python3/python3-tutorial.html)
+- [廖雪峰 Python教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+
+
+
+## 基础设施
+
+- virtualenv
+- virtualenvwrapper
+- [Anaconda](https://anaconda.org/)
+
+
+## py库、框架
+
+- [flask](https://github.com/pallets/flask)
+	- [awesome-flask](https://github.com/humiaozuzu/awesome-flask)
+- [django](https://github.com/django/django)
+- [tornado](https://github.com/tornadoweb/tornado)
+- [web2py](https://github.com/web2py/web2py)
+- Web.py
+
+
 ## MAC
 
 - [python DOC](https://docs.python.org/3/)
@@ -6,7 +32,7 @@
 
 
 ### 安装 python 3.x
-brew install python3
+`brew install python3`
 
 ### 升级 3.5
 
