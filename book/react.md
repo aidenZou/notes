@@ -25,6 +25,7 @@
 
 - [Preact](https://github.com/developit/preact)
 
+- [Recompose](https://github.com/acdlite/recompose) 高阶库
 
 全家桶
 
@@ -37,6 +38,7 @@
 	- [redux-promise](https://github.com/acdlite/redux-promise)
 	- [redux-saga](http://yelouafi.github.io/redux-saga)
 - [mobx](https://github.com/mobxjs/mobx)
+- [dva](https://github.com/dvajs/dva)
 - [Immutable](https://github.com/facebook/immutable-js/) [Immutable](https://facebook.github.io/immutable-js/) [搞定immutable.js](https://boke.io/immutable-js/)
 	- [Immutable 详解及 React 中实践](https://segmentfault.com/a/1190000003910357)
 
@@ -73,6 +75,7 @@
 - [ant-tool](http://ant-tool.github.io/index.html)
 - [uxcore](https://github.com/uxcore/uxcore) [官网](http://uxco.re/)
 - [Primer](https://github.com/primer/primer)
+- [RSUITE](https://rsuitejs.com/)
 
 
 ### 案例
@@ -135,6 +138,11 @@
 
 - [第三方知乎](https://github.com/race604/ZhiHuDaily-React-Native)
 - [新鲜出炉的基于RN的APP](http://bbs.reactnative.cn/topic/192/%E6%96%B0%E9%B2%9C%E5%87%BA%E7%82%89%E7%9A%84%E5%9F%BA%E4%BA%8Ern%E7%9A%84app)
+
+
+## why
+
+- dangerouslySetInnerHTML
 
 
 ## 其它

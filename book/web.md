@@ -516,10 +516,19 @@ proxy server
 - [语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
 
 
+### 代码检查
+
+- [ESLint](https://eslint.org/)
+- [stylelint](https://stylelint.io/)
+- [JSON Lint](https://github.com/zaach/jsonlint)
+- [MarkdownLint](https://github.com/igorshubovych/markdownlint-cli)
+
+
 #### ESLint
 
-[Standard](https://github.com/feross/standard)
-[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- [Standard](https://github.com/feross/standard)
+- [Google](https://github.com/google/eslint-config-google)
 
 
 ### 在线工具
@@ -652,7 +661,7 @@ Postcss-salad由以下插件
 
 #### 美化
 
-- [Prettier](https://github.com/prettier/prettier)
+- [Prettier](https://github.com/prettier/prettier) [Prettier](https://prettier.io/)
 - [Reshape](https://github.com/reshape/reshape)
 
 

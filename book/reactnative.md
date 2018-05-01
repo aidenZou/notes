@@ -7,11 +7,15 @@
 
 - [JS.coach](https://js.coach/react-native)
 
+- [Expo](https://expo.io/)
+
+- [Metro](https://github.com/facebook/metro)
+
+- [create-react-native-app](https://github.com/react-community/create-react-native-app)
 
 ### UI
 
 - [UI Kitten](https://github.com/akveo/kittenTricks)
-
 
 ```shell
 npm install -g react-native-cli

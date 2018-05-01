@@ -38,6 +38,9 @@
 
 - [【译】Node.js 给前端带来了什么](https://www.h5jun.com/post/Node.js%20%E7%BB%99%E5%89%8D%E7%AB%AF%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88.html)
 
+- [唯快不破，让nodejs再快一点](https://github.com/alibaba/beidou/blob/master/packages/beidou-docs/articles/node-performance-optimization.md)
+- [Node应用内存泄漏分析方法论与实战](https://github.com/alibaba/beidou/blob/master/packages/beidou-docs/articles/node-memory-leak.md)
+- [打造高可靠与高性能的React同构解决方案](https://github.com/alibaba/beidou/blob/master/packages/beidou-docs/articles/high-performance-isomorphic-app.md)
 
 ## PM2常用命令
 

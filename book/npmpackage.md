@@ -64,6 +64,7 @@ app-root-path
 - [crypto-js ](https://www.npmjs.com/package/crypto-js) 加密
 - [protobuf.js](https://github.com/dcodeIO/protobuf.js) 用于JavaScript的协议缓冲区
 
+- [Inquirer](https://github.com/SBoudrias/Inquirer.js) 一组通用的交互式命令行用户界面。input, confirm, list, rawlist, expand, checkbox, password, editor
 
 - [PhantomJS](https://github.com/ariya/phantomjs)
 
@@ -71,3 +72,8 @@ app-root-path
 ### 其它
 
 - [js2flowchart](https://github.com/Bogdan-Lyashenko/js-code-to-svg-flowchart) 一个将任何JavaScript代码转换成漂亮的SVG流程图的可视化库
+
+### FE
+
+https://www.npmjs.com/package/amfe-flexible
+https://www.npmjs.com/package/inline-source

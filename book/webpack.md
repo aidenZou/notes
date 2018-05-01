@@ -36,3 +36,10 @@ module.exports = {
 ### Plugins
 
 - [webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
+
+npx webpack --config webpack.config.js --profile --json > stats.json
+npx webpack --config ./build/webpack.prod.conf.js --profile --json > stats.json
+
+npx webpack-bundle-analyzer bundle/output/path/stats.json
+npx webpack-bundle-analyzer ./stats.json ./dist -m static -r report.html
+stats.json 是 webpack 构建生成 stats.json，dist 是输出目录
