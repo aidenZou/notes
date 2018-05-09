@@ -139,7 +139,9 @@
   - [cube-ui](https://github.com/didi/cube-ui/)
   - [vuera](https://github.com/akxcv/vuera) Vue in React, React in Vue
 
+##### Virtual DOM
 
+- [Snabbdom](https://github.com/snabbdom/snabbdom)
 
 ##### Other
 
@@ -828,6 +830,7 @@ Postcss-salad由以下插件
 
 ### Markdown
 
+- [Mark Text](https://github.com/marktext/marktext) Mark Text 所输及所见，摒弃了众多 markdown 编辑器左边写作右边预览的写作方式，巧妙的将编辑和预览融为一体。
 - [Markcook--简洁、高效的markdown编辑器](https://github.com/jrainlau/markcook)
 - [marked](https://github.com/chjj/marked)
 - [kramdown](http://kramdown.gettalong.org/)

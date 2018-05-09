@@ -24,3 +24,38 @@ https://www.genymotion.com/
 
 ln -s /Users/zouguilin/Library/Android/sdk/platform-tools/adb /usr/local/bin
 /usr/local/bin/adb -> /Users/zouguilin/Library/Android/sdk/platform-tools/adb
+
+## 其它
+
+- [VirtualXposed](https://github.com/android-hacker/VirtualXposed)
+- [VirtualApp](https://github.com/asLody/VirtualApp)
+- [Xposed](https://github.com/rovo89/Xposed)
+- [Epic](https://github.com/tiann/epic)
+- [我为Dexposed续一秒——论ART上运行时 Method AOP实现](http://weishu.me/2017/11/23/dexposed-on-art/)
+- [Dexposed](https://github.com/alibaba/dexposed)
+- [AndFix](https://github.com/alibaba/AndFix)
+
+tasker
+Auto.js
+
+妮媌
+
+- Hermit
+- 一个木函
+- 米隐 （MIUI）
+
+- SuperSU
+- Magisk Manager
+
+## 加固
+
+- 360加固
+- 腾讯加固
+- 梆梆加固
+- 梆梆企业版(12306客户端 Pass)
+- 爱加密
+- 百度加固
+- 娜迦加固
+- 乐变加固
+- 网易易盾
+- 通付盾
