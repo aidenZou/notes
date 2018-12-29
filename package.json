@@ -2,19 +2,17 @@
   "name": "book",
   "version": "1.0.0",
   "description": "Web开发常用技术整理",
-  "main": "book.js",
-  "dependencies": {
-    "gitbook-cli": "^2.1.2",
-    "gitbook-plugin-disqus": "^0.1.0",
-    "gitbook-plugin-edit-link": "^2.0.2",
-    "gitbook-plugin-prism": "^1.0.0",
-    "gitbook-plugin-quizzes": "^1.0.0"
-  },
-  "devDependencies": {},
+  "#main": "book.js",
   "scripts": {
-    "dev": "gitbook serve",
-    "build": "gitbook build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "publish": "yarn run docs:build",
+    "postpublish": "vdora-publish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vdora-publish": "^0.1.0",
+    "vuepress": "^0.14.8"
   },
   "keywords": [],
   "author": "",
