@@ -19,11 +19,11 @@
 	- [SublimeCodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel) 语法提示
 	- [SublimeTmpl](https://github.com/kairyou/SublimeTmpl) HTML/CSS/JavaScript 标准模版
 			ctrl+alt+h html
-			ctrl+alt+j javascript
-			ctrl+alt+c css
-			ctrl+alt+p php
-			ctrl+alt+r ruby
-			ctrl+alt+shift+p python
+		​	ctrl+alt+j javascript
+		​	ctrl+alt+c css
+		​	ctrl+alt+p php
+		​	ctrl+alt+r ruby
+		​	ctrl+alt+shift+p python
 
 
 
@@ -32,6 +32,7 @@
 - [office](https://www.office.com/)
 - [任务管理](https://trello.com)
 - [Bug 管理](https://www.bugclose.com/)
+- [显示查询自己的IP地址](http://ip111.cn/)
 
 
 ## 服务
@@ -67,12 +68,13 @@ https://letsencrypt.org/
 	快捷键：
 	- A：画板
 	- 距离测算(测量页面上所有元素之间的距离)：选定元素，按住Option键
-	
-	
+
+
+​	
 Sketch UI设计插件推荐：
 
 	- [sketchtoolbox](http://sketchtoolbox.com/)
-
+	
 	- [https://github.com/afc163/sketch-awesome-plugins](一套不错的 Sketch3 插件合集)
 		====================================================
 		FINISH Installation. INSTALLED LIST:
@@ -91,20 +93,22 @@ Sketch UI设计插件推荐：
 	- [sketch-measure](https://github.com/utom/sketch-measure) 标注插件
 	- [Marketch](https://github.com/tudou527/marketch) Marketch是草图3插件自动生成，可以测量并得到它的CSS样式的HTML页面
 	- [Content](https://github.com/timuric/Content-generator-sketch-plugin) 素描的应用程序插件生成的虚拟数据，如头像，姓名，照片，地理位置等数据
+	
+	- [PxCook](http://www.fancynode.com.cn/pxcook)
 
 快捷键
-	1.	框定范围: ⌃ + ⇧ + 1
-	2. 标注尺寸: ⌃ + ⇧ + 2
-	3.	标注绝对位置: ⌃ + ⇧ + 3
-	4.	标注属性: ⌃ + ⇧ + 4
-	5.	把现有文字转换成注释: ⌃ + ⇧ + 5
-	6.	标注尺寸（百分比）:⌃ + ⇧ + 6
-	7.	标注绝对位置（百分比）:⌃ + ⇧ + 7
-	8.	导出HTML文档: ⌃ + ⇧ + E
-	9.	隐藏、显示标注: ⌃ + ⇧ + H
-	10. 锁定、解锁标注: ⌃ + ⇧ + L
-	11. 标注宽度:⌃ + ⇧ + [
-	12. 标注高度:⌃ + ⇧ + ]
+​	1.	框定范围: ⌃ + ⇧ + 1
+​	2. 标注尺寸: ⌃ + ⇧ + 2
+​	3.	标注绝对位置: ⌃ + ⇧ + 3
+​	4.	标注属性: ⌃ + ⇧ + 4
+​	5.	把现有文字转换成注释: ⌃ + ⇧ + 5
+​	6.	标注尺寸（百分比）:⌃ + ⇧ + 6
+​	7.	标注绝对位置（百分比）:⌃ + ⇧ + 7
+​	8.	导出HTML文档: ⌃ + ⇧ + E
+​	9.	隐藏、显示标注: ⌃ + ⇧ + H
+​	10. 锁定、解锁标注: ⌃ + ⇧ + L
+​	11. 标注宽度:⌃ + ⇧ + [
+​	12. 标注高度:⌃ + ⇧ + ]
 
 
 

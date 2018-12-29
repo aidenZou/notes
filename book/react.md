@@ -39,6 +39,8 @@
 	- [redux-saga](http://yelouafi.github.io/redux-saga)
 - [mobx](https://github.com/mobxjs/mobx)
 - [dva](https://github.com/dvajs/dva)
+- [bbx](https://bbxjs.github.io/) 𝕓𝕓𝕩 是一个极其简单高效的 React 状态管理方式
+- [UmiJS](https://github.com/umijs/umi) 极快的类 Next.js 的 React 应用框架。
 - [Immutable](https://github.com/facebook/immutable-js/) [Immutable](https://facebook.github.io/immutable-js/) [搞定immutable.js](https://boke.io/immutable-js/)
 	- [Immutable 详解及 React 中实践](https://segmentfault.com/a/1190000003910357)
 

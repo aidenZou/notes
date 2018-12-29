@@ -56,6 +56,10 @@ freeze Output installed packages in requirements format.
 
 pip install [options] -r <requirements file> [package-index-options] ...
 
+pip 安装指定版本的 Python 包
+
+`pip install robotframework==2.8.7`
+
 `~/develop/py35env/bin/pip3 install -r requirements.txt`
 
 
@@ -184,4 +188,8 @@ ngin
 
 python -m SimpleHTTPServer
 
+## 书
 
+- 流畅的Python
+- 59个建议
+- 91个建议

@@ -10,6 +10,7 @@
 * [Lerna](https://github.com/lerna/lerna) 用于管理具有多个软件包的 JavaScript 项目的工具 babel
 
   * [Lerna Changelog](https://github.com/lerna/lerna-changelog)
+  * [lerna-example](https://github.com/example-repo/lerna-example)
   * 文章
     * [monorepo 新浪潮 | introduce lerna](https://github.com/pigcan/blog/issues/3)
     * [Why is Babel a monorepo?](https://github.com/babel/babel/blob/master/doc/design/monorepo.md)

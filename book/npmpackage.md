@@ -1,6 +1,55 @@
 # npm package
 
-```
+[每天阅读一个 npm 模块](https://github.com/parro-it/awesome-micro-npm-packages)
+
+## utils
+
+- [throttle-debounce](https://github.com/niksy/throttle-debounce) throttle: 节流; debounce: 防抖动
+
+### 工程、构建
+
+- [amfe-flexible](https://www.npmjs.com/package/amfe-flexible) 可伸缩布局方案
+- [inline-source](https://www.npmjs.com/package/inline-source)
+
+### 模块
+
+- [Commitizen](https://www.npmjs.com/package/commitizen) 一个撰写合格 Commit message 的工具
+- [crypto-js](https://www.npmjs.com/package/crypto-js) 加密
+- [protobuf.js](https://github.com/dcodeIO/protobuf.js) 用于JavaScript的协议缓冲区
+
+- [PhantomJS](https://github.com/ariya/phantomjs)
+
+#### CLI
+
+- [commander](https://github.com/tj/commander.js)
+- [yargs](https://github.com/yargs/yargs)
+- [inquirer](https://github.com/SBoudrias/Inquirer.js) 一组通用的交互式命令行用户界面。input, confirm, list, rawlist, expand, checkbox, password, editor
+
+- [username](https://www.npmjs.com/package/username) 获取当前用户的用户名
+
+#### 性能
+
+- [fast-json-stringify](https://www.npmjs.com/package/fast-json-stringify)
+- [msgpack](https://www.npmjs.com/package/msgpack)
+
+## 构建
+
+- cross-env 设置 node环境变量
+- child_process
+- execa
+
+lint-staged
+pre-commit
+
+app-root-path
+
+### 有意思
+
+- [js2flowchart](https://github.com/Bogdan-Lyashenko/js-code-to-svg-flowchart) 一个将任何JavaScript代码转换成漂亮的SVG流程图的可视化库
+
+## 其它
+
+```javascript
 //从仓库下载并提取git存储库（GitHub，GitLab，Bitbucket）。
 var download = require('download-git-repo')
 //主要用于创建子命令和切割命令行参数并执行
@@ -21,7 +70,6 @@ var chalk = require('chalk')
 var inquirer = require('inquirer')
 var rm = require('rimraf').sync
 ```
-
 
 "dependencies": {
     "async": "^2.5.0",
@@ -45,35 +93,3 @@ var rm = require('rimraf').sync
     "mocha": "^4.0.1",
     "webpack": "^2.2.1"
 }
-
-### 构建
-
-- cross-env 设置 node环境变量
-- child_process
-- execa
-
-lint-staged
-pre-commit
-
-app-root-path
-
-
-### 模块
-
-- [Commitizen](https://www.npmjs.com/package/commitizen) 一个撰写合格 Commit message 的工具
-- [crypto-js ](https://www.npmjs.com/package/crypto-js) 加密
-- [protobuf.js](https://github.com/dcodeIO/protobuf.js) 用于JavaScript的协议缓冲区
-
-- [Inquirer](https://github.com/SBoudrias/Inquirer.js) 一组通用的交互式命令行用户界面。input, confirm, list, rawlist, expand, checkbox, password, editor
-
-- [PhantomJS](https://github.com/ariya/phantomjs)
-
-
-### 其它
-
-- [js2flowchart](https://github.com/Bogdan-Lyashenko/js-code-to-svg-flowchart) 一个将任何JavaScript代码转换成漂亮的SVG流程图的可视化库
-
-### FE
-
-https://www.npmjs.com/package/amfe-flexible
-https://www.npmjs.com/package/inline-source

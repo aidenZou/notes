@@ -115,3 +115,39 @@ docker run -p 80:80 -d -v $PWD/html:/usr/share/nginx/html nginx
 mount
 
 ## compose
+
+构建并运行应用程序
+
+`docker-compose up`
+
+停止应用程序
+
+`docker-compose down`
+
+在后台运行你的服务
+
+`docker-compose up -d`
+
+查看当前正在运行的内容
+
+`docker-compose ps`
+
+停止提供服务
+
+`docker-compose stop`
+
+你可以把所有东西都拿下来，用down 命令彻底清除容器。通过--volumes也可以删除Redis容器使用的数据量：
+
+`docker-compose down --volumes`
+
+查看哪些环境变量可用于该 web服务
+
+`docker-compose run web env`
+
+查看其他可用的命令
+
+`docker-compose --help`
+
+## 案例
+
+- [Quickstart: Compose and Django](https://docs.docker.com/compose/django/#define-the-project-components)

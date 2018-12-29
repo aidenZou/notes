@@ -22,12 +22,6 @@
 - [Foundation](https://github.com/zurb/foundation-sites) [官网](http://foundation.zurb.com/)
 - [Pure](https://github.com/yahoo/pure) yahoo出品 纯CSS
 
-
-### Style
-
-- [Bulma](https://github.com/jgthms/bulma/) [Bulma](https://bulma.io/)
-
-
 ### 移动端
 
 - [FrozenUI](https://github.com/frozenui/frozenui) [官网](http://frozenui.github.io/) FrozenUI的CSS组件库,基于腾讯手Q样式规范

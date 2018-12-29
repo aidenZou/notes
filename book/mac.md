@@ -1,5 +1,9 @@
 # mac
 
+## Mac 应用程序
+
+[Awesome Mac](https://github.com/jaywcjlove/awesome-mac)
+
 ## shell(iTerm2 + zsh + oh-my-zsh) autojump
 
 ```shell

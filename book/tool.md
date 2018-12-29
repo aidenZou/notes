@@ -1,5 +1,8 @@
 # 工具
 
+## 软件
+
+- [termius](https://www.termius.com/)
 
 ## 工具
 
@@ -7,6 +10,17 @@
 - http://rubular.com
 - https://www.regexpal.com
 
+- [Carbon](https://carbon.now.sh) 创建和分享源代码的美丽图像（代码展示 PPT）code块
+
+- [在线UUID生成](https://www.uuidgenerator.net/)
+- [在线抽奖](https://fouber.github.io/lottery/)
+
+- [随机数](https://www.random.org/)
+
+- [RunKit](https://runkit.com)
+
+- [云凤蝶 - 移动建站平台](https://www.yunfengdie.com/)
+- [语雀 - 写文档，就用语雀 · 语雀](https://www.yuque.com/)
 
 ## API 接口文档管理平台
 
@@ -14,11 +28,16 @@
 - [RAP](http://rapapi.org)
 - [Swagger UI](https://github.com/swagger-api/swagger-ui)
 
+## 接口服务
+
+- [API数据_京东万象官网—综合数据开放平台](https://wx.jdcloud.com/)
+
 
 ## 图片
 
 - [PNG压缩与格式转换工具](https://github.com/iSparta/iSparta)
-
+- [ImageMagick](https://www.imagemagick.org)
+  - [图像处理 - ImageMagick 简单介绍与案例](https://aotu.io/notes/2018/06/06/ImageMagick_intro/)
 
 ## CI
 

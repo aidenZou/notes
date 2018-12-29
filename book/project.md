@@ -4,6 +4,7 @@
 
 - [electron-react-boilerplate](https://github.com/chentsulin/electron-react-boilerplate) Electron、React 和热加载的 demo
 - [PicGo](https://github.com/Molunerfinn/PicGo) 图片上传+管理新体验
+- [tinypng upload](https://github.com/muwoo/tinypng-upload)
 
 * [Piper](https://piper-now.herokuapp.com/#/home) 在线编辑页面
 

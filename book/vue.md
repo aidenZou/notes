@@ -3,6 +3,7 @@
 ## doc
 
 - [Vue.js](https://github.com/vuejs/vue) [documentation](http://cn.vuejs.org/guide/)
+  - [Vue 技术内幕](http://hcysun.me/vue-design/art/)
 - [vue-router](https://github.com/vuejs/vue-router) [documentation](http://vuejs.github.io/vue-router/zh-cn/index.html) Vue.js 官方路由
 - [vue-resource](https://github.com/vuejs/vue-resource) 通过 XMLHttpRequest 或 JSONP 发起请求并处理响应
 - [vue-recyclerview](https://github.com/hilongjw/vue-recyclerview) Vue 超大数据列表解决方案
@@ -13,34 +14,39 @@
 - [vue-element](https://github.com/vuejs/vue-element) 使用 Vue.js 注册自定义元素
 - [vuex](http://vuejs.github.io/vuex/zh-cn/index.html)
 - [Vue Color](https://github.com/xiaokaike/vue-color)
+- [vuese](https://github.com/HcySunYang/vuese) 解析 Vue SFC 并生成 markdown 文档
 
 - [vue-gesture](https://github.com/mlyknown/vue-gesture) 手势插件
 
-- [使用Vue构建中(大)型应用](https://segmentfault.com/a/1190000004706690)
+- [使用 Vue 构建中(大)型应用](https://segmentfault.com/a/1190000004706690)
 
 - [vue-timeago](https://github.com/egoist/vue-timeago) 倒计时
 
-
 - [vue 源码解读](https://juejin.im/user/58f87ae844d9040069ca7507)
-- [聊聊Vue.js的template编译](https://github.com/answershuto/learnVue)
+- [聊聊 Vue.js 的 template 编译](https://github.com/answershuto/learnVue)
 - [learnVue](https://github.com/answershuto/learnVue)
 
+- [vue-create-api](https://www.npmjs.com/package/vue-create-api)
 
 ## UI
 
+- [Cube UI](https://didi.github.io/cube-ui/)
 - [Keen-UI](https://github.com/JosephusPaye/keen-ui)
 - [Mint UI](https://github.com/ElemeFE/mint-ui)
 - [Vux](https://github.com/airyland/vux)
 - [Mint UI](http://mint-ui.github.io/#!/zh-cn) 饿了么
 - [ZanUI](https://www.youzanyun.com/zanui)
+- [Ant Design Vue](https://github.com/vueComponent/ant-design-vue)
 
+## JSX
+
+- [在 Vue 中使用 JSX 的正确姿势](https://zhuanlan.zhihu.com/p/37920151)
 
 ## 工具
 
 - [vue-markdown-loader](https://github.com/QingWei-Li/vue-markdown-loader)
 - [vue-demo-loader](https://github.com/Jokcy/vue-demo-loader)
 - [vuep](https://github.com/QingWei-Li/vuep/) [官网](https://cinwell.com/vuep)
-
 
 ## vue-cli
 
@@ -63,12 +69,9 @@ webpack - A full-featured Webpack + vue-loader setup with hot reload, linting, t
 
 webpack-simple - A simple Webpack + vue-loader setup for quick prototyping.
 
-
-
-### Vue核心文件目录
+### Vue 核心文件目录
 
 ```
-
 src/
 ├── api/              # 接入微服务的基础 API
 ├── App/              # App Root Component

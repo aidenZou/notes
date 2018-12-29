@@ -1,5 +1,14 @@
 # docker
 
+- [Docker Compose YML](http://guide.daocloud.io/dcs/%E9%83%A8%E7%BD%B2%E5%A4%8D%E6%9D%82%E7%9A%84%E5%A4%9A%E8%8A%82%E7%82%B9%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%BA%94%E7%94%A8-9153682.html)
+
+## 周边
+
+- [Rancher](https://rancher.com/)
+  - [Rancher Docs](https://rancher.com/docs/rancher/latest/zh/)
+
+## 其它
+
 ```
 docker --version
 
@@ -193,15 +202,16 @@ docker exec -it myNginx /bin/bash
 service nginx reload
 
 
-
 #### mysql
 
 使用mysql镜像运行单独的容器
 
 ```
 docker run -d --name mysql_1 -v /data/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mysql
-docker run -d --name mysql_1 -v /Users/zouguilin/develop/mysql_data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mysql:5.7
+docker run -d --name mysql-cool-app -v ~/develop/data/data_mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mysql:5.7
 ```
+/var/data/data_mysql
+
 
 -d : --detach，后台运行。
 --name : 为你的镜像创建一个别名，该别名用于更好操作。

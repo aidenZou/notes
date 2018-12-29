@@ -1,3 +1,11 @@
+# ES6
+
+## Async
+
+- [Async 案例](https://juejin.im/post/5bcf3e3f6fb9a05cd53b3e3d)
+
+## 其它
+
 - [教程](http://www.codeceo.com/article/es6-next-javascript.html)
 - [在线练习](https://babeljs.io/repl/)
 

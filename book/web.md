@@ -14,6 +14,7 @@
 - [TypeScript](https://www.typescriptlang.org/)
 - [前端那么大，我想去看看](http://div.io/topic/1550)
 - [前端收集](https://github.com/foru17/front-end-collect)
+- [其他人的BUG](http://www.yinwang.org/blog-cn/2015/02/20/other-peoples-bug)
 
 > Node.js的出现就像把前端从农业化时代一下子拉向了工业化时代。
 
@@ -71,6 +72,7 @@
 
 - [caniuse](http://caniuse.com/) 浏览器兼容性
 - [WhichBrowser](https://whichbrowser.net/)
+- [browserl.ist](http://browserl.ist/) browserl.ist_ A page to display compatible browsers from a browserslist string.
 
 
 ## 神器
@@ -81,14 +83,27 @@
 
 - [抓包神器Fiddler](http://w3cboy.com/post/2015/03/%E6%8A%93%E5%8C%85%E7%A5%9E%E5%99%A8Fiddler/)
 
+## H5唤起APP
+
+- [callapp-lib](https://github.com/suanmei/callapp-lib)
+  - [H5唤起APP指南](https://suanmei.github.io/2018/08/23/h5_call_app/)
 
 ## Style
 
-- [Bulma](https://github.com/jgthms/bulma)
+- [Bulma](https://github.com/jgthms/bulma/) [Bulma](https://bulma.io/)
 - [Pure](https://github.com/yahoo/pure)
-- [Basscss](https://github.com/basscss/basscss/) 原子类
 - [Primer](https://github.com/primer/primer) The design system that powers GitHub
+- [Basscss](https://github.com/basscss/basscss/) 原子类
+  - [basscss-addons](https://github.com/basscss/addons)
+  - [ace-css](https://github.com/basscss/ace)
+- [OOCSS](https://github.com/stubbornella/oocss) Object Oriented CSS
 
+- [colors.css](https://github.com/mrmrs/colors)
+
+### 理论
+
+- [CSS, Sass, SCSS, Compass, Less,BEM, SMACSS, OOCSS, ACSS, CCSS, WTFSS?](https://www.w3cplus.com/css/css-sass-scss-compass-less-bem-smacss-oocss-acss-ccss-wtfss.html)
+- [Atomic CSS](https://acss.io/)
 
 ### 方案
 
@@ -190,15 +205,22 @@
 
 #### Electron
 
-- [electron](https://electron.atom.io/)
-- [electron-forge](https://github.com/electron-userland/electron-forge)
+- [electron](https://electronjs.org/) [old](https://electron.atom.io/)
+- [electron-forge](https://github.com/electron-userland/electron-forge) - [官网](https://electronforge.io/)
 
 - [electron-builder](https://github.com/electron-userland/electron-builder)
 - [electron-packager](https://github.com/electron-userland/electron-packager)
 
+- [electron-vue](https://github.com/SimulatedGREG/electron-vue)
+
 - [iview-cli](https://github.com/iview/iview-cli)
 - [weflow](https://weflow.io/)
 
+截图
+- [从零开始用 electron 手撸一个截屏工具](https://juejin.im/post/5bbac5cee51d450e7042ad2c)
+- [Electron 截图踩坑和优化集合](https://juejin.im/post/5bcedc98f265da0abc2ba45d)
+- [electorn-capture-screen](https://github.com/chrisbing/electorn-capture-screen)
+- [electron shortcut capture plugin](https://github.com/nashaofu/shortcut-capture)
 
 #### 微信
 
@@ -278,7 +300,7 @@
 
 - [json-server](https://github.com/typicode/json-server)
 - [dora](https://github.com/dora-js/dora) dora 是一个开发服务器，通过插件的方式集合各种调试方案，比如 webpack、livereload、browsersync、数据 mock、本地代理、weinre、jsonapi 等等。
-	- [dora-plugin-proxy](https://github.com/dora-js/dora-plugin-proxy) 模拟api
+  - [dora-plugin-proxy](https://github.com/dora-js/dora-plugin-proxy) 模拟api
 - [LiveReload](http://livereload.com/)
 - [JSON API](http://jsonapi.org/) [JSON API CN](http://jsonapi.org.cn/) JSON API 用 JSON 构建 API 的标准指南
 - [图像 to SVG](http://image.online-convert.com/convert-to-svg)
@@ -290,32 +312,36 @@
 - [json-markup](https://github.com/mafintosh/json-markup) Prettyprint JSON to HTML（JSON view）
 - [JSONedit](https://github.com/mb21/JSONedit)
 - [jsonohyeah](http://www.jsonohyeah.com/) JSON-Editor-Mocker [中文输入有 bug]
+- [JSON Editor Online](https://jsoneditoronline.org/)
 
 
 - [react-jsonschema-form](https://github.com/mozilla-services/react-jsonschema-form)
-
 
 ### 调试
 
 - [端开发中的JS调试技巧](http://www.cnblogs.com/miragele/p/5394396.html)
 
-
 ### 调试工具
 
+- [weinre](http://people.apache.org/~pmuellr/weinre/docs/latest/)
+- [node-mitmproxy](https://github.com/wuchangming/node-mitmproxy)
+- [AnyProxy](https://github.com/alibaba/anyproxy)
 - [DebugGap](http://www.debuggap.com/)
 - [Browsersync](https://www.browsersync.io/)
 - [spy-debugger](https://github.com/wuchangming/spy-debugger)
+- [whistle](https://github.com/avwo/whistle) [使用文档](http://wproxy.org/whistle/)
+- [vConsole](https://github.com/Tencent/vConsole)
 - [Eruda](https://github.com/liriliri/eruda) Eruda: Console for Mobile Browsers
 - [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy)
 - [我的webview调试工具](https://segmentfault.com/a/1190000008686184)
 
+- [carefree](http://carefree.jd.com)
 
-proxy server
+### proxy server
 
 - Chrome 下通过插件 SwitchyOmega 实现，详见[在线调试](https://github.com/dora-js/dora-plugin-proxy/blob/master/docs/online-debug.md)
 - iOS 下通过配系统代理
 - Android 下通过 [ProxyDroid](https://play.google.com/store/apps/details?id=org.proxydroid) 实现
-
 
 ### 前端错误、监控
 
@@ -331,15 +357,12 @@ proxy server
 - [Chai](http://chaijs.com/)
 - [Sinon.JS](http://sinonjs.org/)
 
-- [weinre](http://people.apache.org/~pmuellr/weinre/docs/latest/)
-- [node-mitmproxy](https://github.com/wuchangming/node-mitmproxy)
-- [AnyProxy](https://github.com/alibaba/anyproxy)
-- [spy-debugger](https://github.com/wuchangming/spy-debugger)
-
 - [F2etest](https://github.com/alibaba/f2etest) F2etest是一个面向前端、测试、产品等岗位的多浏览器兼容性测试整体解决方案。
 
 - [puppeteer](https://github.com/GoogleChrome/puppeteer) Headless Chrome Node API
+- [pptraas.com](https://github.com/GoogleChromeLabs/pptraas.com)
 
+- [FAutoTest](https://github.com/Tencent/FAutoTest) H5、小程序自动化测试框架FAutoTest正式开源
 
 ### 构建
 
@@ -351,6 +374,7 @@ proxy server
   - [WebpackBin](http://www.webpackbin.com/)
 - [📦 Parcel](https://github.com/parcel-bundler/parcel) [官网](https://parceljs.org/)
 - [rollup.js](https://rollupjs.org/)
+- [Fastpack](http://fastpack.io/)
 - [jspm](https://jspm.io/)
 - [FIS](http://fis.baidu.com/)
 - [gulp](http://gulpjs.com/)
@@ -374,6 +398,7 @@ proxy server
 
 ### 数据
 
+- [callbag-basics](https://github.com/staltz/callbag-basics)
 - [Ramda](https://github.com/ramda/ramda) [Ramda 中文](http://ramda.cn/) [Pointfree 编程风格指南](http://www.ruanyifeng.com/blog/2017/03/pointfree.html)
 - [lodash](https://lodash.com/) [中文文档](http://lodash.qiuqudou.com/) [中文文档](http://lodash.think2011.net/)
 - [Underscore.js](https://github.com/jashkenas/underscore) [中文文档](http://www.css88.com/doc/underscore/)
@@ -382,7 +407,6 @@ proxy server
 - [mathjs](https://github.com/josdejong/mathjs) js自带的数学运算不能满足你的需求了，那试试这个，扩展了很多数学运算。
 - [bignumber.js](http://mikemcl.github.io/bignumber.js/)
 
-- [Ramda](https://github.com/ramda/ramda)
 - [flyd](https://github.com/paldepind/flyd)
 - [Immutable.js](https://github.com/facebook/immutable-js)
 - [Normalizes](https://github.com/paularmstrong/normalizr) Normalizes nested JSON according to a schema
@@ -473,11 +497,15 @@ proxy server
 - [datedropper](http://felicegattuso.com/projects/datedropper/) 提供管理日期输入字段的jQuery插件。
 - [Instantsearch.js](https://community.algolia.com/instantsearch.js/) 用于高性能即时搜索的插件。
 
+### 骨架屏
+
+- [Create ReactVue Content Loader](https://create-vue-content-loader.netlify.com/)
+  - [vue-content-loader](https://github.com/egoist/vue-content-loader)
+  - [react-content-loader](https://github.com/danilowoz/react-content-loader)
 
 ### 酷
 
 - [Canvas 魔幻线条 - curvejs](https://alloyteam.github.io/curvejs/)
-
 
 ## 动画插件&库
 
@@ -539,7 +567,7 @@ proxy server
 - [png 图片压缩](https://tinypng.com/)
 - [CSS3 Keyframes Animation Generator](http://cssanimate.com/) 在线制作css动画
 - [StackBlitz](https://stackblitz.com/) Online VS Code IDE for Angular & React.
-- [CODESANDBOX](https://codesandbox.io/)
+- [CODESANDBOX](https://codesandbox.io/) 在线写 demo
 - [Mathcha](https://www.mathcha.io/)
 - [Expo](https://expo.io)
 
@@ -550,10 +578,17 @@ proxy server
 - [日期兼容性](http://dygraphs.com/date-formats.html) 日期兼容性
 - [My97 DatePicker](http://www.my97.net/)
 - [lCalendar移动端日期时间选择控件](https://github.com/aidenzou/lCalendar)
+- [date-fns](https://date-fns.org/)
+
+
+### 事件订阅 pub/sub
+
+- [Postal.js](https://github.com/postaljs/postal.js)
 
 
 ### 图形与图表
 
+- [AntV](https://antv.alipay.com) 蚂蚁数据可视化 - AntV
 - [D3](https://github.com/mbostock/d3)
 - [Highcharts](https://github.com/highcharts/highcharts)
 - [ECharts](http://echarts.baidu.com/) 百度出品
@@ -703,34 +738,10 @@ Postcss-salad由以下插件
 - [fastclick](https://github.com/ftlabs/fastclick)
 - [tappy](https://github.com/filamentgroup/tappy/)
 - [tap.js](https://github.com/alexgibson/tap.js)
-
+- [300ms tap delay, gone away](https://developers.google.com/web/updates/2013/12/300ms-tap-delay-gone-away) Chrome
 
 ### Mac下Chrome手机模拟器里网页字号bug
 [Font Boosting](https://github.com/amfe/article/issues/10)
-
-
-## Node
-
-- [n](https://github.com/tj/n)
-- [Node Version Manager ](https://github.com/creationix/nvm)
-- [nave](https://github.com/isaacs/nave)
-- [Express](https://github.com/strongloop/express)
-- [Koa](https://github.com/koajs/koa)
-  - [一起学koa](https://github.com/base-n/koa-generator-examples)
-- [hapi](https://github.com/hapijs/hapi)
-- [ThinkJS](https://github.com/75team/thinkjs) [官网](https://thinkjs.org/)
-- [Chair](http://yq.aliyun.com/articles/2921) Chair是支付宝前端团队推出的，基于Node.js的Web框架，适用于大部分的Web应用。
-- [alinode](http://alinode.aliyun.com/)
-
-
-- [Webot](https://github.com/node-webot) 微信公共平台
-- [Nodemailer](https://github.com/nodemailer/nodemailer) 邮件模块
-
-
-文章：
-
-- [Node.js 在双十一中有哪些应用，表现如何？](https://www.zhihu.com/question/37379084)
-
 
 ## 模板
 
@@ -796,6 +807,15 @@ Postcss-salad由以下插件
 
 - [asciinema](https://asciinema.org/) 一个在终端下非常棒的录制分享软件，基于文本的录屏工具，对终端输入输出进行捕捉
 
+- [jszip](https://github.com/Stuk/jszip)
+
+### 网络
+
+- Charles — 局域网抓包工具
+- TcpDump — 客户端抓包工具
+- Cat — 网络状态监控工具
+- Hertz — 客户端页面测速工具
+
 ## 终端工具
 
 - [ora](https://www.npmjs.com/package/ora) Elegant terminal spinner
@@ -803,9 +823,10 @@ Postcss-salad由以下插件
 - [Hyper™](https://github.com/zeit/hyper) 基于Web技术的终端
 
 
-### 性能工具
+### 页面性能的评估与监控
 
 - [Lighthouse](https://github.com/GoogleChrome/lighthouse) [doc](https://developers.google.com/web/tools/lighthouse/)
+- [GTmetrix](https://gtmetrix.com/) 可以同时查多个分析工具的的结果，会提供许多的建议。
 
 
 ## 文档
@@ -830,6 +851,13 @@ Postcss-salad由以下插件
 
 ### Markdown
 
+WYSIWYG（What You See Is What You Get）
+
+- [Mark Text](https://github.com/marktext/marktext)
+- [HyperMD](https://github.com/laobubu/hypermd/)
+- [typora](https://typora.io/)
+
+
 - [Mark Text](https://github.com/marktext/marktext) Mark Text 所输及所见，摒弃了众多 markdown 编辑器左边写作右边预览的写作方式，巧妙的将编辑和预览融为一体。
 - [Markcook--简洁、高效的markdown编辑器](https://github.com/jrainlau/markcook)
 - [marked](https://github.com/chjj/marked)
@@ -837,16 +865,29 @@ Postcss-salad由以下插件
 - [HyperDown](https://github.com/SegmentFault/HyperDown)
 - [Showdown](https://github.com/showdownjs/showdown) 支持 todo
 - [mermaid](https://github.com/knsv/mermaid) [官网](https://knsv.github.io/mermaid/index.html) 以类似于markdown的方式从文本生成图表和流程图
+- [PlantUML]()
+- confluence
 - [flowchart.js](https://github.com/adrai/flowchart.js) 流程图
 - [js-sequence-diagrams](https://github.com/bramp/js-sequence-diagrams) 时序图
 
+- [StackEdit](https://github.com/benweet/stackedit)
+
+### office
+
+- [weditor](https://github.com/ximing/weditor)
+- [xmexcel](https://github.com/ximing/xmexcel)
 
 ### Mock数据
+
 - [Mock.js](http://mockjs.com/) 生成随机数据，拦截 Ajax 请求
-	- [demo](http://codepen.io/aidenzou/pen/EKKZwK)
+  - [demo](http://codepen.io/aidenzou/pen/EKKZwK)
+- [Easy Mock](https://www.easy-mock.com)
+- [YApi](https://github.com/YMFE/yapi)
+  - [文档](https://yapi.ymfe.org)
+  - [演示](http://yapi.demo.qunar.com/)
 - [RAP](https://github.com/thx/RAP)
 - [TommyLemon/APIJSON](https://github.com/TommyLemon/APIJSON)
-- [YApi](http://yapi.demo.qunar.com/)
+- [roadhog api doc站点](https://github.com/nikogu/roadhog-api-doc)
 
 
 ## 游戏引擎
@@ -922,8 +963,54 @@ browser-sync start --proxy "192.168.1.222:8001" --files "templates/**" "static/*
 - [CSS3 Test](http://css3test.com/)
 - [HTML5test](https://html5test.com/)
 
-
 ## 小程序
 
+- [wepy](https://github.com/Tencent/wepy) 小程序官方组件化开发框
+- [mpvue](https://github.com/Meituan-Dianping/mpvue) 基于 Vue.js 的小程序开发框架
+- [taro](https://github.com/NervJS/taro) 多端统一开发框架，支持用 React 的开发方式编写一次代码，生成能运行在微信小程序、H5、React Native 等的应用。
+- [minapp](https://github.com/qiu8310/minapp)
+
+- [Westore](https://github.com/Tencent/westore) 微信小程序解决方案 - 1KB javascript 覆盖状态管理、跨页通讯、插件开发和云数据库开发
+  - [Westore](https://github.com/dntzhang/westore) 全局状态管理和跨页通讯
+
+- [微信小程序开发资源汇总](https://github.com/justjavac/awesome-wechat-weapp)
+- [wept](https://github.com/chemzqm/wept) 微信小程序 web 端实时运行工具
 - [wxapp-unpack](http://10.5.235.121:9092/#/) 微信小程序反编译服务
 - [Hera](https://github.com/weidian-inc/hera)
+- [wechat_web_devtools](https://github.com/cytle/wechat_web_devtools) Linux微信web开发者工具
+
+- [近期遇到的几个小程序坑](https://zhuanlan.zhihu.com/p/35609265)
+- [微信小程序运行流程看这篇就够了](https://juejin.im/post/5afd136551882542682e6ad7)
+- [微信小程序架构分析 (上)](https://zhuanlan.zhihu.com/p/22754296)
+
+### 持续集成
+
+- [微信小程序集成 Jenkins](https://juejin.im/post/5b8caec751882542f038189e)
+  - [微信小程序集成 Jenkins for Github](https://github.com/yingye/Blog/issues/8)
+- [CODING](https://coding.net/help/doc/webide/miniapp.html)
+
+## Server
+
+- [nginx](http://nginx.org/)
+- [OpenResty](https://openresty.org/)
+
+## AST
+
+- [Esprima](https://github.com/jquery/esprima)
+- [Acorn](https://github.com/acornjs/acorn)
+- [Espree](https://github.com/eslint/espree)
+- Traceur
+- UglifyJS2
+- shift
+- v8
+- spidermonkey
+
+## 混淆
+
+- [JSFuck](http://www.jsfuck.com/)
+- [JavaScript Obfuscator](https://obfuscator.io/) JavaScript Obfuscator工具
+
+## 汇总
+
+- [JS-total](https://github.com/laihuamin/JS-total)
+- [Awesome JavaScript](https://juejin.im/entry/55913251e4b0442bacca53e2)
