@@ -4,6 +4,14 @@
 
 [Awesome Mac](https://github.com/jaywcjlove/awesome-mac)
 
+### 工具
+
+- [eZip](http://ezip.awehunt.com/) eZip - 专为 macOS 而设计的压缩软件！
+
+### 笔记
+
+- [Boostnote](https://boostnote.io/)
+
 ## shell(iTerm2 + zsh + oh-my-zsh) autojump
 
 ```shell
@@ -31,12 +39,12 @@ oh-my-zsh 安装后,它的配置在用户目录下的 .oh-my-zsh 目录下 `/Use
 
 zsh 的配置文件也在用户目录下 .zshrc 隐藏文件
 
-`~  vim ~/.zshrc`
+`~ vim ~/.zshrc`
 
-1. 在当前目录下输入 .. 或 … ，或直接输入当前目录名都可以跳转，你甚至不再需要输入 cd 命令了。 
+1. 在当前目录下输入 .. 或 … ，或直接输入当前目录名都可以跳转，你甚至不再需要输入 cd 命令了。
 2. z
 3. d
-	> 按一下 d 再回车你会看到最近的历史记录，然后你就可以通过数字比如 1, 2 之类的返回到某个历史记录中了。
+   > 按一下 d 再回车你会看到最近的历史记录，然后你就可以通过数字比如 1, 2 之类的返回到某个历史记录中了。
 4. zsh_stats 可以看到你的使用频率前 20 的命令是什么！
 
 ```shell
@@ -65,53 +73,48 @@ autojump v22.2.4
 
 - [oh-my-zsh Wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview)
 
-# 历史记录，按⌘+Shift+h弹出历史记录窗口。
-
+# 历史记录，按 ⌘+Shift+h 弹出历史记录窗口。
 
 [iTerm2 指南](http://wdxtub.com/2016/03/20/iterm2-guide/)
-
 
 ## 好使
 
 #### 查看安装目录
+
 which node
 
-
 #### 查看文件夹体积大小
-du -sh *
+
+du -sh \*
 
 #### 预览
 
 https://github.com/sindresorhus/quick-look-plugins
 
-
 #### 查看文件夹体积大小并排序
 
 - linux
 
-du -sh node-sass	# 指定文件夹体积
-du -sh *				# 当前目录下所有文件夹体积
-du -sh * | sort -n -r	# 排序
+du -sh node-sass # 指定文件夹体积
+du -sh _ # 当前目录下所有文件夹体积
+du -sh _ | sort -n -r # 排序
 
 - mac
 
 安装 gsort
 brew install coreutils
-du -sh * | gsort -h		# 体积 小 -> 大
-du -sh * | gsort -hr	# 体积 大 -> 小
-
+du -sh _ | gsort -h # 体积 小 -> 大
+du -sh _ | gsort -hr # 体积 大 -> 小
 
 ## 命令行启动 Sublime Text
 
-命令行启动 Sublime Text 
+命令行启动 Sublime Text
 `alias subl='open -a "Sublime Text 2"'`
 
-打开当前目录下文件 
+打开当前目录下文件
 `subl .`
 
-
-
-## Mac OS X取消Apache(httpd)开机启动
+## Mac OS X 取消 Apache(httpd)开机启动
 
 `sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist`
 
@@ -119,13 +122,11 @@ du -sh * | gsort -hr	# 体积 大 -> 小
 
 `sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist`
 
-launchd是Mac OS下，用于初始化系统环境的关键进程。类似Linux下的init, rc.此方法同样也适用于禁用系统的一些服务,比如打印机,蓝牙等.
-
+launchd 是 Mac OS 下，用于初始化系统环境的关键进程。类似 Linux 下的 init, rc.此方法同样也适用于禁用系统的一些服务,比如打印机,蓝牙等.
 
 ## nginx
 
 `brew install nginx`
 
-nginx的配置文件在：/usr/local/etc/nginx/nginx.conf
-查看目前的nginx进程：`ps -ef|grep nginx`
-
+nginx 的配置文件在：/usr/local/etc/nginx/nginx.conf
+查看目前的 nginx 进程：`ps -ef|grep nginx`

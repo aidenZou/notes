@@ -38,6 +38,7 @@ npx webpack-bundle-analyzer ./stats.json ./dist -m static -r report.html
 stats.json 是 webpack 构建生成 stats.json，dist 是输出目录
 
 - [speed-measure-webpack-plugin](https://github.com/stephencookdev/speed-measure-webpack-plugin) 监控 webpack 每一步操作的耗时。
+- [webpack-build-notifier](https://www.npmjs.com/package/webpack-build-notifier) 构建通知
 
 ## 工具
 

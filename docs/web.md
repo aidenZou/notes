@@ -63,6 +63,8 @@
 
 - [为什么说 DOM 操作很慢](https://leozdgao.me/why-dom-slow/)
 
+- [TypeScript 体系调研报告](https://juejin.im/post/59c46bc86fb9a00a4636f939)
+
 ## 在线浏览器检测
 
 - [caniuse](http://caniuse.com/) 浏览器兼容性
@@ -84,6 +86,7 @@
 
 ## Style
 
+- [Flat-UI](http://designmodo.github.io/Flat-UI/)
 - [Bulma](https://github.com/jgthms/bulma/) [Bulma](https://bulma.io/)
 - [Pure](https://github.com/yahoo/pure)
 - [Primer](https://github.com/primer/primer) The design system that powers GitHub
@@ -91,8 +94,14 @@
   - [basscss-addons](https://github.com/basscss/addons)
   - [ace-css](https://github.com/basscss/ace)
 - [OOCSS](https://github.com/stubbornella/oocss) Object Oriented CSS
+- [tachyons](http://tachyons.io/) [github](https://github.com/tachyons-css/tachyons)
+- [Atomic CSS](https://acss.io/)
+- [zxx.lib.css](https://github.com/zhangxinxu/zxx.lib.css)
 
 - [colors.css](https://github.com/mrmrs/colors)
+
+- [CSS-Inspiration](https://github.com/chokcoco/CSS-Inspiration) CSS Inspiration，在这里找到写 CSS 的灵感！
+  - [CSS 灵感](https://chokcoco.github.io/CSS-Inspiration/)
 
 ### 理论
 
@@ -175,17 +184,6 @@
 
 - [Angular2](https://angular.cn/)
 - [Angular 2.x 从 0 到 1](https://github.com/wpcfan/awesome-tutorials/tree/master/angular2/ng2-tut)
-
-#### React
-
-- [Material UI](https://github.com/callemall/material-ui)
-- [Ant Design](http://ant.design/) 基于 React & Ant Design（阿里蚂蚁金服体验技术部出品）
-- [React 前后端同构应用框架 Next.js](https://zeit.co/blog/next2)
-- [Fabric](http://dev.office.com/fabric#/components) 用于为 Office 和 Office 365 构建用户体验的 React 组件
-- [React Desktop](http://reactdesktop.js.org/)
-- [RSUITE](https://rsuitejs.com/) 一套 React 的 UI 组件库
-- [10 个打造 React.js App 的最佳 UI 框架](https://zhuanlan.zhihu.com/p/26973849)
-- [Preact](https://github.com/developit/preact)
 
 ##### UWP
 
@@ -299,9 +297,9 @@
 - [json-markup](https://github.com/mafintosh/json-markup) Prettyprint JSON to HTML（JSON view）
 - [JSONedit](https://github.com/mb21/JSONedit)
 - [jsonohyeah](http://www.jsonohyeah.com/) JSON-Editor-Mocker [中文输入有 bug]
-- [JSON Editor Online](https://jsoneditoronline.org/)
-
-* [react-jsonschema-form](https://github.com/mozilla-services/react-jsonschema-form)
+- [JSON Editor](https://github.com/josdejong/jsoneditor)
+  - [JSON Editor Online](https://jsoneditoronline.org/)
+- [SON Editor](https://github.com/jdorn/json-editor)
 
 ### 调试
 
@@ -322,6 +320,12 @@
 - [我的 webview 调试工具](https://segmentfault.com/a/1190000008686184)
 
 - [carefree](http://carefree.jd.com)
+
+### 页面性能的评估与监控
+
+- [Lighthouse](https://github.com/GoogleChrome/lighthouse) [doc](https://developers.google.com/web/tools/lighthouse/)
+- [GTmetrix](https://gtmetrix.com/) 可以同时查多个分析工具的的结果，会提供许多的建议。
+- [Fundebug](https://www.fundebug.com/) 网站错误监控\_JS 错误监控\_资源加载错误\_网络请求错误\_小程序错误监控\_Java 异常监控\_监控报警\_Source Map\_用户行为\_可视化重现
 
 ### proxy server
 
@@ -394,7 +398,11 @@
 - [Immutable.js](https://github.com/facebook/immutable-js)
 - [Normalizes](https://github.com/paularmstrong/normalizr) Normalizes nested JSON according to a schema
 
+- [JSON Schema](https://json-schema.org/)
+
 > 函数式编程是一种编程的模式，在这种编程模式中最常用的函数和表达式。它强调在编程的时候用函数的方式思考问题，函数也与其他数据类型一样，处于平等地位。可以将函数作为参数传入另一个函数，也可以作为别的函数的返回值。函数式编程倾向于用一系列嵌套的函数来描述运算过程。
+
+- [outils](https://github.com/proYang/outils) 前端业务代码工具库
 
 ### 组件
 
@@ -411,12 +419,12 @@
 
 - [工作中经常用到 github 上优秀、实用、轻量级、无依赖的插件和库](https://github.com/jawil/blog/issues/10)
 
-* #### 编辑器
+#### 编辑器
 
-* [CKEditor](https://docs.ckeditor.com/)
-* [Monaco Editor](https://github.com/Microsoft/monaco-editor)
-* [Slate](https://github.com/ianstormtaylor/slate) [doc](https://docs.slatejs.org/) [Slate 中文文档](https://doodlewind.github.io/slate-doc-cn/)
-* [Draft.js](https://github.com/facebook/draft-js) facebook [官网](https://draftjs.org/)
+- [CKEditor](https://docs.ckeditor.com/)
+- [Monaco Editor](https://github.com/Microsoft/monaco-editor)
+- [Slate](https://github.com/ianstormtaylor/slate) [doc](https://docs.slatejs.org/) [Slate 中文文档](https://doodlewind.github.io/slate-doc-cn/)
+- [Draft.js](https://github.com/facebook/draft-js) facebook [官网](https://draftjs.org/)
 
 ### 666
 
@@ -434,6 +442,11 @@
 - [Elevator.js](http://tholman.com/elevator.js/) “返回顶部”效果像真正的电梯一样。
 - [Slideout.js](https://mango.github.io/slideout/) 适用于移动端 WEB 应用的触摸式导航菜单。
 - [Bootply](http://www.bootply.com/) Bootstrap 是一个非常流行的框架，所以这个 BootStrap 编辑器值得一试。
+
+### 引导
+
+- [shepherd](https://github.com/shipshapecode/shepherd) 引导您的用户浏览您的应用
+  - [shepherd 文档](https://shipshapecode.github.io/shepherd/)
 
 ### 触摸
 
@@ -599,8 +612,6 @@
   > 它俩的区别：http://segmentfault.com/q/1010000000117189
   > 推荐用 Normalize CSS
 
-- [tachyons](https://github.com/tachyons-css/tachyons)
-
 - [CSS Modules](https://github.com/css-modules/css-modules)
 
 - [CSS 图片滤镜](http://una.im/CSSgram/)
@@ -713,6 +724,8 @@ Postcss-salad 由以下插件
 - [Xuni](http://www.goxuni.com/cn/)
 - [Titanium](http://www.appcelerator.com/product/)
 - [Ionic](http://ionicframework.com/)
+- [Framework7](https://github.com/nolimits4web/Framework7)
+  - [官网](http://framework7.io/)
 - [MUI](https://github.com/dcloudio/mui/)
 - [APICloud](http://www.apicloud.com/)
 
@@ -733,9 +746,13 @@ Postcss-salad 由以下插件
 
 ## PWA
 
+- [pwabuilder](https://www.pwabuilder.com/)
 - [offline-plugin](https://github.com/NekR/offline-plugin)
 - [preact-cli](https://github.com/developit/preact-cli)
 - [vue-pwa](https://github.com/vuejs-templates/pwa)
+
+- [TWA](https://developers.google.com/web/updates/2019/02/using-twa)
+  - Android 上的 Chrome >= 版本 72
 
 ## SPA SEO
 
@@ -775,11 +792,6 @@ Postcss-salad 由以下插件
 - [ora](https://www.npmjs.com/package/ora) Elegant terminal spinner
 
 - [Hyper™](https://github.com/zeit/hyper) 基于 Web 技术的终端
-
-### 页面性能的评估与监控
-
-- [Lighthouse](https://github.com/GoogleChrome/lighthouse) [doc](https://developers.google.com/web/tools/lighthouse/)
-- [GTmetrix](https://gtmetrix.com/) 可以同时查多个分析工具的的结果，会提供许多的建议。
 
 ## 文档
 
@@ -873,19 +885,22 @@ WYSIWYG（What You See Is What You Get）
 
 ## Server
 
+- [nginx](http://nginx.org/)
+- [OpenResty](https://openresty.org/)
+- [Caddy](https://caddyserver.com/)
+
+### 各种语言
+
 常用脚本语言下开启简易 web server 的方法
 
-```
+```shell
 http-server -p 8080
+#browser
+browser-sync start --proxy "192.168.1.222:8001" --files "templates/**" "static/**"
+
 ruby -run -e httpd . -p 9090
 python -m SimpleHTTPServer 8000
 php -S 127.0.0.1:8088 router.php
-```
-
-browser
-
-```
-browser-sync start --proxy "192.168.1.222:8001" --files "templates/**" "static/**"
 ```
 
 ## 内网
@@ -907,10 +922,14 @@ browser-sync start --proxy "192.168.1.222:8001" --files "templates/**" "static/*
 
 ## 小程序
 
+- [test-framework](https://github.com/dcloudio/test-framework)
 - [wepy](https://github.com/Tencent/wepy) 小程序官方组件化开发框
 - [mpvue](https://github.com/Meituan-Dianping/mpvue) 基于 Vue.js 的小程序开发框架
 - [taro](https://github.com/NervJS/taro) 多端统一开发框架，支持用 React 的开发方式编写一次代码，生成能运行在微信小程序、H5、React Native 等的应用。
 - [minapp](https://github.com/qiu8310/minapp)
+- [Chameleon](https://github.com/didi/chameleon) 适应不同环境的跨端整体解决方案（didi）
+  - [Chameleon 官网 官网](https://cmljs.org/)
+- [Mpx](https://github.com/didi/mpx/) Mpx 是一款致力于提高小程序开发体验的增强型小程序框架，通过 Mpx，我们能够最先进的 web 开发体验(Vue + Webpack)来开发生产性能深度优化的小程序（didi）
 
 - [Westore](https://github.com/Tencent/westore) 微信小程序解决方案 - 1KB javascript 覆盖状态管理、跨页通讯、插件开发和云数据库开发
 
@@ -932,11 +951,6 @@ browser-sync start --proxy "192.168.1.222:8001" --files "templates/**" "static/*
   - [微信小程序集成 Jenkins for Github](https://github.com/yingye/Blog/issues/8)
 - [CODING](https://coding.net/help/doc/webide/miniapp.html)
 
-## Server
-
-- [nginx](http://nginx.org/)
-- [OpenResty](https://openresty.org/)
-
 ## AST
 
 - [Esprima](https://github.com/jquery/esprima)
@@ -952,6 +966,22 @@ browser-sync start --proxy "192.168.1.222:8001" --files "templates/**" "static/*
 
 - [JSFuck](http://www.jsfuck.com/)
 - [JavaScript Obfuscator](https://obfuscator.io/) JavaScript Obfuscator 工具
+
+## 可视化搭建页面
+
+- [js2flowchart](https://github.com/Bogdan-Lyashenko/js-code-to-svg-flowchart) 一个将任何 JavaScript 代码转换成漂亮的 SVG 流程图的可视化库
+- [AMis](https://github.com/baidu/amis)
+- [Piper](https://piper-now.herokuapp.com/#/home) 在线编辑页面
+- [imgcook](https://imgcook.taobao.org) imgcook 由设计稿一键智能生成代码的大厨
+
+## 用户行为记录、跟踪
+
+- [rrweb](https://www.rrweb.io/) 记录并重播网络
+
+## 内存
+
+- [内存管理](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Memory_Management)
+- [chrome-devtools memory-problems](https://developers.google.com/web/tools/chrome-devtools/memory-problems/)
 
 ## 汇总
 

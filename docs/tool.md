@@ -10,9 +10,9 @@
 - http://rubular.com
 - https://www.regexpal.com
 
-- [Carbon](https://carbon.now.sh) 创建和分享源代码的美丽图像（代码展示 PPT）code块
+- [Carbon](https://carbon.now.sh) 创建和分享源代码的美丽图像（代码展示 PPT）code 块
 
-- [在线UUID生成](https://www.uuidgenerator.net/)
+- [在线 UUID 生成](https://www.uuidgenerator.net/)
 - [在线抽奖](https://fouber.github.io/lottery/)
 
 - [随机数](https://www.random.org/)
@@ -22,6 +22,8 @@
 - [云凤蝶 - 移动建站平台](https://www.yunfengdie.com/)
 - [语雀 - 写文档，就用语雀 · 语雀](https://www.yuque.com/)
 
+- [Gridsome](https://gridsome.org) Gridsome 使开发人员可以轻松构建快速默认的现代 JAMstack 网站和 PWA（基于 Vue.js）
+
 ## API 接口文档管理平台
 
 - [SosoApi](http://www.sosoapi.com/)
@@ -30,14 +32,14 @@
 
 ## 接口服务
 
-- [API数据_京东万象官网—综合数据开放平台](https://wx.jdcloud.com/)
-
+- [API 数据\_京东万象官网—综合数据开放平台](https://wx.jdcloud.com/)
 
 ## 图片
 
-- [PNG压缩与格式转换工具](https://github.com/iSparta/iSparta)
+- [PNG 压缩与格式转换工具](https://github.com/iSparta/iSparta)
 - [ImageMagick](https://www.imagemagick.org)
   - [图像处理 - ImageMagick 简单介绍与案例](https://aotu.io/notes/2018/06/06/ImageMagick_intro/)
+- [GIMP - GNU 图像处理程序](https://www.gimp.org/)
 
 ## CI
 

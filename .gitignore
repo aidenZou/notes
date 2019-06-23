@@ -8,6 +8,8 @@
 node_modules
 dist
 
+.project.config.js
+
 # Book build output
 _book
 

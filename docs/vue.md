@@ -28,9 +28,14 @@
 
 - [vue-create-api](https://www.npmjs.com/package/vue-create-api)
 
+- [Vue技术内幕 - 逐行级别的 Vue 源码分析](http://hcysun.me/vue-design/)
+  - [Vue技术内幕 github](https://github.com/HcySunYang/vue-design)
+
 ## UI
 
 - [Cube UI](https://didi.github.io/cube-ui/)
+- [Mand Mobile](https://github.com/didi/mand-mobile)
+  - [Mand Mobile Palette](https://mand-mobile.github.io/palette/#/home)
 - [Keen-UI](https://github.com/JosephusPaye/keen-ui)
 - [Mint UI](https://github.com/ElemeFE/mint-ui)
 - [Vux](https://github.com/airyland/vux)

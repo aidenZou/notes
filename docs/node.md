@@ -20,6 +20,7 @@
 ## 版本管理
 
 - [Node Version Manager](https://github.com/creationix/nvm)
+  - 安装一个新的 node 版本时重新安装包: `nvm install lts/dubnium --reinstall-packages-from=10.15.1`
 - [n](https://github.com/tj/n)
 - [nave](https://github.com/isaacs/nave)
 
@@ -31,14 +32,27 @@
 - [hapi](https://github.com/hapijs/hapi)
 - [ThinkJS](https://github.com/75team/thinkjs) [官网](https://thinkjs.org/)
 - [Chair](http://yq.aliyun.com/articles/2921) Chair 是支付宝前端团队推出的，基于 Node.js 的 Web 框架，适用于大部分的 Web 应用。
-- [AdonisJs](https://adonisjs.com/)
-- [Nest](https://github.com/nestjs/nest)
+- [AdonisJs](https://adonisjs.com/) 类似 PHP laravel
+- [Nest](https://github.com/nestjs/nest) 类似 Spring
+  - [NestCloud](https://nestcloud.org)
+  - 案例工程
+    - [nest-cnode](https://github.com/jiayisheji/nest-cnode)
+    - [nestx](https://github.com/vellengs/nestx)
+    - [typerx](https://github.com/vellengs/typerx)
+    - [让我们用 Nestjs 来重写一个 CNode](https://github.com/jiayisheji/blog/issues/19)
+- [Midway](https://github.com/midwayjs/midway) 类似 Spring（阿里）
+- [Moleculer](https://moleculer.services/) Node.js 的渐进式微服务框架
 - [Fastify](https://github.com/fastify/fastify)
+- [eggjs](https://eggjs.org/)
+- [sails](https://sailsjs.com/)
+- [Daruk](https://github.com/daruk-framework/daruk)
 
 - [Webot](https://github.com/node-webot) 微信公共平台
 - [Nodemailer](https://github.com/nodemailer/nodemailer) 邮件模块
 
 - [node-oauth](https://www.npmjs.com/package/oauth)
+- [typeorm](https://github.com/typeorm/typeorm)
+- [prisma](https://github.com/prisma/prisma)
 
 ## 文章：
 
@@ -48,17 +62,14 @@
 
 - [《Node.js 包教不包会》 by alsotang](https://github.com/alsotang/node-lessons)
 - [七天学会 NodeJS](http://nqdeng.github.io/7-days-nodejs/)
-- [Express](http://expressjs.com/)
-- [koajs](https://github.com/koajs/koa)
-- [ThinkJS](https://thinkjs.org/zh-cn/doc/index.html)
-- [eggjs](https://eggjs.org/)
-- [sails](https://sailsjs.com/)
 
 - [nodemon](https://github.com/remy/nodemon)
 - [supervisor](https://www.npmjs.com/package/supervisor)
 - [forever](https://www.npmjs.com/package/forever) forever 是一个 Node 应用程序，用于一个子进程意外退出时，自动重启。
+- hotnode
 
 - [log4js](https://github.com/nomiddlename/log4js-node)
+- [nodebestpractices](https://github.com/i0natan/nodebestpractices/blob/master/README.chinese.md) Node.js 最佳实践
 
 ## 快速定位性能问题
 
@@ -74,6 +85,7 @@
 - [alinode](http://alinode.aliyun.com/)
 - [Keymetrics](https://keymetrics.io/)
 - [New Relic](https://newrelic.com/nodejs)
+- [N_Solid](https://nodesource.com/products/nsolid/)
 
 ## 文章
 
@@ -111,12 +123,20 @@ pm2 startup centos
 保存设置（非常重要）
 pm2 save
 
-### 模块
+## 模块
 
 - [cheerio](https://github.com/cheeriojs/cheerio)
 - [fs-extra](https://github.com/jprichardson/node-fs-extra)
 
-### 模板
+- [shortid](https://github.com/dylang/shortid)
+- [uuid](https://www.npmjs.com/package/uuid)
+- [Nano ID](https://www.npmjs.com/package/nanoid)
+
+- [object-hash](https://github.com/puleos/object-hash)
+- [faker.js](https://github.com/Marak/faker.js)
+- [Mock.js](https://github.com/nuysoft/Mock)
+
+## 模板
 
 - [Nunjucks](https://github.com/mozilla/nunjucks)
 
@@ -125,6 +145,4 @@ pm2 save
 - [lowdb](https://github.com/typicode/lowdb)
 - [nedb](https://github.com/louischatriot/nedb)
 
-### 监控
-
-https://nodesource.com/products/nsolid/
+- [typeorm](https://typeorm.io)

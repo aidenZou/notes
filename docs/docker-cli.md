@@ -1,8 +1,15 @@
 # docker
 
-## 常用命令
+## 链接
 
-### 列出所有 images列表
+Get started
+
+- [Dockerfile](https://docs.docker.com/get-started/part2/)
+- [docker-compose.yml](https://docs.docker.com/get-started/part3/)
+
+##  常用命令
+
+### 列出所有 images 列表
 
 `docker images`
 
@@ -10,11 +17,11 @@
 
 `docker rmi {IMAGE ID}`
 
-### 列出当前运行的容器列表
+### 列出当前  运行的  容器列表
 
 `docker ps`
 
-### 列出所有容器列表
+### 列出所有  容器列表
 
 `docker ps -a`
 
@@ -45,7 +52,7 @@
 `docker cp index.html {CONTAINER ID}://usr/share/nginx/html`
 `docker cp ./index.html 308accb9d8ac://usr/share/nginx/html`
 
-报错改动为新的image
+报错改动为新的 image
 
 `docker commit -m 'change index' 308accb9d8ac nginx-changeindex`
 
@@ -80,11 +87,11 @@ MAINTAINER zifan
 CMD echo "hello docker!"
 ```
 
-构建image
+构建 image
 
 `docker build -t zifan/hello_docker .`
 
-运行image
+运行 image
 
 `docker run zifan/hello_docker`
 
@@ -92,7 +99,7 @@ hello docker!
 
 ## volume
 
-### 1.通过 -v挂载卷
+### 1.通过 -v 挂载卷
 
 docker run -d --name nginx -v /usr/share/nginx/html nginx
 
@@ -102,11 +109,11 @@ Mounts.Source -> Destination
 
 ### 2.本地目录挂载到容器
 
-docker run -p 80:80 -d -v $PWD/html:/usr/share/nginx/html nginx
+docker run -p 80:80 -d -v \$PWD/html:/usr/share/nginx/html nginx
 
-把当前 html文件夹挂载到 `/usr/share/nginx/html`
+把当前 html 文件夹挂载到 `/usr/share/nginx/html`
 
-### 3.创建仅有数据的容器
+### 3. 创建仅有数据的容器
 
 `docker create -v $PWD/data:/var/mydata --name data_contriner ubuntu`
 
@@ -136,11 +143,11 @@ mount
 
 `docker-compose stop`
 
-你可以把所有东西都拿下来，用down 命令彻底清除容器。通过--volumes也可以删除Redis容器使用的数据量：
+你可以把所有东西都拿下来，用 down 命令彻底清除容器。通过--volumes 也可以删除 Redis 容器使用的数据量：
 
 `docker-compose down --volumes`
 
-查看哪些环境变量可用于该 web服务
+查看哪些环境变量可用于该 web 服务
 
 `docker-compose run web env`
 

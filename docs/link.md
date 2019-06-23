@@ -7,6 +7,7 @@
 * [Developing AngularJS](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md)
 * [用工具思路来规范化 git commit message](https://github.com/pigcan/blog/issues/15)
 
+* [monorepos](https://trunkbaseddevelopment.com/monorepos/)
 * [Lerna](https://github.com/lerna/lerna) 用于管理具有多个软件包的 JavaScript 项目的工具 babel
 
   * [Lerna Changelog](https://github.com/lerna/lerna-changelog)

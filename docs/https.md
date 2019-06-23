@@ -9,6 +9,8 @@
 - [CSR Generator](https://ym.github.io/jscsrgen/)
 - [获取每日免费SSL](https://ssl.ni-co.moe/ssl/create/free.html) 获取每日免费SSL
 
+- [mkcert](https://github.com/FiloSottile/mkcert)
+
 ## 生成文件
 
 首先，确保你有key.pem和cert.pem文件。您可以使用以下命令生成它们：
