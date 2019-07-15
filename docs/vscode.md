@@ -33,9 +33,13 @@ code -a 1.txt 这种会创建一个 1.txt 文件到当前活动窗口
 
 git config --global core.editor "code —wait”&&
 git config --global -e
+
 [diff]
+
 tool = default-difftool
+
 [difftool "default-difftool"]
+
 cmd = code --wait --diff $LOCAL$REMOTE
 
 ## 常用操作

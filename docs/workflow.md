@@ -15,6 +15,11 @@
 - Wercker
 - TeamCity
 
+## 质量
+
+- [SonarQube](https://www.sonarqube.org/) 持续检查
+  - [github](https://github.com/SonarSource/sonarqube)
+
 ## 业界
 
 - [蚂蚁金服前端技术专家 杨周璇（沉鱼） - Basement——蚂蚁 Web 研发流程和基础服务实践](https://myslide.cn/slides/4708#page_top)

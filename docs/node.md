@@ -19,10 +19,12 @@
 
 ## 版本管理
 
-- [Node Version Manager](https://github.com/creationix/nvm)
+- [Node Version Manager](https://github.com/nvm-sh/nvm) 一个 Node.js 版本管理器，使用 bash 实现，几乎是业内最有名
   - 安装一个新的 node 版本时重新安装包: `nvm install lts/dubnium --reinstall-packages-from=10.15.1`
 - [n](https://github.com/tj/n)
 - [nave](https://github.com/isaacs/nave)
+- [NVS](https://github.com/jasongin/nvs)
+  - [从 nvm 迁移到 nvs](https://ukn.me/cong-nvm-qian-yi-dao-nvs.html) 一个的 Node.js 版本切换器，使用 JavaScript 实现，跨平台
 
 ## 框架、库
 

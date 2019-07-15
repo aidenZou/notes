@@ -371,6 +371,9 @@
   - [Grunt 中文网](http://gruntjs.cn/)
 - [tinypng](https://tinypng.com/) 图片压缩
 - [UPNG](http://upng.photopea.com/)
+- [Lerna](https://lerna.js.org/)
+- [Rush](https://rushjs.io/) 微软
+- [Just](https://microsoft.github.io/just/) 微软
 
 ### 发布
 
@@ -553,6 +556,9 @@
 - [CODESANDBOX](https://codesandbox.io/) 在线写 demo
 - [Mathcha](https://www.mathcha.io/)
 - [Expo](https://expo.io)
+- [Twproject](https://twproject.com/) 甘特图
+- [draw.io](https://www.draw.io/)
+- [gantt](https://github.com/frappe/gantt) 开源甘特图
 
 ### 日期
 
@@ -819,19 +825,20 @@ WYSIWYG（What You See Is What You Get）
 - [HyperMD](https://github.com/laobubu/hypermd/)
 - [typora](https://typora.io/)
 
-* [Mark Text](https://github.com/marktext/marktext) Mark Text 所输及所见，摒弃了众多 markdown 编辑器左边写作右边预览的写作方式，巧妙的将编辑和预览融为一体。
-* [Markcook--简洁、高效的 markdown 编辑器](https://github.com/jrainlau/markcook)
-* [marked](https://github.com/chjj/marked)
-* [kramdown](http://kramdown.gettalong.org/)
-* [HyperDown](https://github.com/SegmentFault/HyperDown)
-* [Showdown](https://github.com/showdownjs/showdown) 支持 todo
-* [mermaid](https://github.com/knsv/mermaid) [官网](https://knsv.github.io/mermaid/index.html) 以类似于 markdown 的方式从文本生成图表和流程图
-* [PlantUML]()
-* confluence
-* [flowchart.js](https://github.com/adrai/flowchart.js) 流程图
-* [js-sequence-diagrams](https://github.com/bramp/js-sequence-diagrams) 时序图
+- [tui.editor](https://github.com/nhn/tui.editor)
+- [Mark Text](https://github.com/marktext/marktext) Mark Text 所输及所见，摒弃了众多 markdown 编辑器左边写作右边预览的写作方式，巧妙的将编辑和预览融为一体。
+- [Markcook--简洁、高效的 markdown 编辑器](https://github.com/jrainlau/markcook)
+- [marked](https://github.com/chjj/marked)
+- [kramdown](http://kramdown.gettalong.org/)
+- [HyperDown](https://github.com/SegmentFault/HyperDown)
+- [Showdown](https://github.com/showdownjs/showdown) 支持 todo
+- [mermaid](https://github.com/knsv/mermaid) [官网](https://knsv.github.io/mermaid/index.html) 以类似于 markdown 的方式从文本生成图表和流程图
+- PlantUML
+- confluence
+- [flowchart.js](https://github.com/adrai/flowchart.js) 流程图
+- [js-sequence-diagrams](https://github.com/bramp/js-sequence-diagrams) 时序图
 
-* [StackEdit](https://github.com/benweet/stackedit)
+- [StackEdit](https://github.com/benweet/stackedit)
 
 ### office
 
@@ -982,6 +989,13 @@ php -S 127.0.0.1:8088 router.php
 
 - [内存管理](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Memory_Management)
 - [chrome-devtools memory-problems](https://developers.google.com/web/tools/chrome-devtools/memory-problems/)
+
+## 微前端
+
+- [Micro Frontends](https://micro-frontends.org/)
+- [single-spa](https://github.com/CanopyTax/single-spa)
+- [qiankun（乾坤）](https://github.com/umijs/qiankun)
+- [vue 单页(spa)前端 git 工程拆分实践](https://segmentfault.com/a/1190000017124192)
 
 ## 汇总
 

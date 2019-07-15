@@ -24,6 +24,12 @@
 
 - [Gridsome](https://gridsome.org) Gridsome 使开发人员可以轻松构建快速默认的现代 JAMstack 网站和 PWA（基于 Vue.js）
 
+- [Photopea](https://www.photopea.com/) Online Photo Editor
+
+  - [【国内部署版本 在线 PS】](https://ps.gaoding.com/) PS 软件网页版，ps 在线图片处理工具-稿定 PS
+
+- [GitHub buttons](https://ghbtns.com/)
+
 ## API 接口文档管理平台
 
 - [SosoApi](http://www.sosoapi.com/)
