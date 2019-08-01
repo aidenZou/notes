@@ -21,6 +21,8 @@
 
 - [Node Version Manager](https://github.com/creationix/nvm)
 - [n](https://github.com/tj/n)
+- [nvs](https://github.com/jasongin/nvs) 基于 Node 编写、跨平台
+  - [科普文：使用 nvs 管理本地 Node.js 版本](https://zhuanlan.zhihu.com/p/63403762)
 - [nave](https://github.com/isaacs/nave)
 
 ## 框架、库

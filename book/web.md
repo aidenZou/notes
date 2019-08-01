@@ -865,7 +865,7 @@ WYSIWYG（What You See Is What You Get）
 - [HyperDown](https://github.com/SegmentFault/HyperDown)
 - [Showdown](https://github.com/showdownjs/showdown) 支持 todo
 - [mermaid](https://github.com/knsv/mermaid) [官网](https://knsv.github.io/mermaid/index.html) 以类似于markdown的方式从文本生成图表和流程图
-- [PlantUML]()
+- [PlantUML](http://plantuml.com/) 开源工具，使用简单的文字描述画UML图
 - confluence
 - [flowchart.js](https://github.com/adrai/flowchart.js) 流程图
 - [js-sequence-diagrams](https://github.com/bramp/js-sequence-diagrams) 时序图
