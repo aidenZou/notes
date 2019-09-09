@@ -88,7 +88,7 @@
 
 - [Flat-UI](http://designmodo.github.io/Flat-UI/)
 - [Bulma](https://github.com/jgthms/bulma/) [Bulma](https://bulma.io/)
-- [Pure](https://github.com/yahoo/pure)
+- [Pure](https://github.com/yahoo/pure) [purecss](https://purecss.io)
 - [Primer](https://github.com/primer/primer) The design system that powers GitHub
 - [Basscss](https://github.com/basscss/basscss/) 原子类
   - [basscss-addons](https://github.com/basscss/addons)
@@ -185,6 +185,10 @@
 - [Angular2](https://angular.cn/)
 - [Angular 2.x 从 0 到 1](https://github.com/wpcfan/awesome-tutorials/tree/master/angular2/ng2-tut)
 
+#### sveltejs
+
+- [sveltejs](https://github.com/sveltejs/svelte)
+
 ##### UWP
 
 - [React UWP](https://github.com/myxvisual/react-uwp) [官网](https://www.react-uwp.com/)
@@ -230,12 +234,21 @@
 - [data.js](https://github.com/yanhaijing/data.js) 是带有消息通知的数据中心，我称其为会说话的数据。旨在让编程变得简单，世界变得美好。
 - [Keypress](http://dmauro.github.io/Keypress/) 一定记不住键盘上每个键的键位码吧，来试试这个，直观的展示，再也不需要记忆了。
 - [device.js](https://github.com/matthewhudson/device.js) 你想检测用户的设备，试试这个吧，比 jq.browser 全面多了。
-- [Device detection (phone, tablet, desktop, mobile grade, os, versions) ](https://github.com/hgoebl/mobile-detect.js)
+- [Device detection (phone, tablet, desktop, mobile grade, os, versions)](https://github.com/hgoebl/mobile-detect.js)
 - [jsqrcode](https://github.com/LazarSoft/jsqrcode) Javascript 的 QRCode 的扫描仪(依赖一个叫 getUserMedia 的属性)
 - [Mobiscroll](http://www.mobiscroll.com/)
 - [QRCode](https://github.com/davidshimjs/qrcodejs)
 - [offline](https://github.com/hubspot/offline) 自动显示在线/离线显示给用户
 - [Intro.js](https://github.com/usablica/intro.js) 新功能介绍和一步一步的用户指南
+
+#### terminals
+
+- [Xterm](https://github.com/xtermjs/xterm.js) [Xterm](https://xtermjs.org/)
+
+### DevTools
+
+- [Awesome chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools)
+  - [开发技巧](https://umaar.com/dev-tips/) - 大量的GIF动画提示。
 
 ### 脚手架
 
@@ -980,6 +993,7 @@ php -S 127.0.0.1:8088 router.php
 - [AMis](https://github.com/baidu/amis)
 - [Piper](https://piper-now.herokuapp.com/#/home) 在线编辑页面
 - [imgcook](https://imgcook.taobao.org) imgcook 由设计稿一键智能生成代码的大厨
+- [Lugia Mega](http://lugia.tech/#/lugia-mega)
 
 ## 用户行为记录、跟踪
 
@@ -992,10 +1006,13 @@ php -S 127.0.0.1:8088 router.php
 
 ## 微前端
 
+- [如何实现前端微服务化？](https://blog.fundebug.com/2017/08/02/micro_frontend_development/)
 - [Micro Frontends](https://micro-frontends.org/)
 - [single-spa](https://github.com/CanopyTax/single-spa)
 - [qiankun（乾坤）](https://github.com/umijs/qiankun)
 - [vue 单页(spa)前端 git 工程拆分实践](https://segmentfault.com/a/1190000017124192)
+- [Thinking in Microfrontend (微前端的那些事儿)](https://github.com/phodal/microfrontends)
+  - [Micro-frontend Architecture in Action-微前端的那些事儿](https://microfrontends.cn/)
 
 ## 汇总
 
