@@ -58,6 +58,10 @@
 - [constate](https://github.com/diegohaz/constate) 1622
 - [undux](https://github.com/bcherny/undux) 1190
 
+- [mobx-react-lite](https://github.com/mobxjs/mobx-react-lite)
+- [Constate](https://github.com/diegohaz/constate) Star 1988
+- [Unstated Next](https://github.com/jamiebuilds/unstated-next) Star 1356
+
 - [retoggle](https://github.com/Raathigesh/retoggle)
 
 > 共享的可变性状态乃万恶之源。 —— Pete Hunt, React.js Conf 2015
@@ -101,6 +105,11 @@
 ### 案例
 
 - [音乐播放器](https://github.com/ellyliang/JQM-me) [在线体验](http://www.uselessblog.cn/JQM-me/react-player/#music) [angular 播放器](http://www.uselessblog.cn/JQM-me/player/#)
+
+## hooks
+
+- [使用 React Hooks 声明 setInterval](https://overreacted.io/zh-hans/making-setinterval-declarative-with-react-hooks/)
+- [useEffect 完整指南](https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/)
 
 ## ReactWeb
 
@@ -175,6 +184,8 @@
 ## 其它
 
 - [React Web](https://github.com/taobaofed/react-web) 基于 React 的构建无线 Web 应用框架
+
+- [谈谈 React 事件机制和未来(react-events)](https://bobi.ink/2019/07/29/react-event/)
 
 ### 教程
 
